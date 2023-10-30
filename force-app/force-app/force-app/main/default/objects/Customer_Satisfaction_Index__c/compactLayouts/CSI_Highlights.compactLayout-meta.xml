@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CSI_Highlights</fullName>
+    <fields>Customer_Name__c</fields>
+    <fields>Customer_Grading__c</fields>
+    <fields>Executive__c</fields>
+    <label>CSI Highlights</label>
+</CompactLayout>

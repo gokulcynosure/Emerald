@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Market__c</fullName>
+    <externalId>false</externalId>
+    <label>Market</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>DOMESTIC</fullName>
+                <default>false</default>
+                <label>DOMESTIC</label>
+            </value>
+            <value>
+                <fullName>OVERSEAS</fullName>
+                <default>false</default>
+                <label>OVERSEAS</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

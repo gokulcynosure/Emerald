@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Brand__c</fullName>
+    <externalId>false</externalId>
+    <label>Brand</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Greckster</fullName>
+                <default>false</default>
+                <label>Greckster</label>
+            </value>
+            <value>
+                <fullName>EMRALD</fullName>
+                <default>false</default>
+                <label>EMRALD</label>
+            </value>
+            <value>
+                <fullName>CARLISLE</fullName>
+                <default>false</default>
+                <label>CARLISLE</label>
+            </value>
+            <value>
+                <fullName>CONCORD</fullName>
+                <default>false</default>
+                <label>CONCORD</label>
+            </value>
+            <value>
+                <fullName>ADDO INDIA</fullName>
+                <default>false</default>
+                <label>ADDO INDIA</label>
+            </value>
+            <value>
+                <fullName>GRECKSTER GOLD</fullName>
+                <default>false</default>
+                <label>Greckster Gold</label>
+            </value>
+            <value>
+                <fullName>EMRALD DICT</fullName>
+                <default>false</default>
+                <label>EMRALD DICT</label>
+            </value>
+            <value>
+                <fullName>EMPOWER</fullName>
+                <default>false</default>
+                <label>Empower</label>
+            </value>
+            <value>
+                <fullName>EMPOWER XT</fullName>
+                <default>false</default>
+                <label>EMPOWER XT</label>
+            </value>
+            <value>
+                <fullName>SOLIDTRAC</fullName>
+                <default>false</default>
+                <label>SOLIDTRAC</label>
+            </value>
+            <value>
+                <fullName>ATLAS</fullName>
+                <default>false</default>
+                <label>ATLAS</label>
+            </value>
+            <value>
+                <fullName>SUPERSTAR</fullName>
+                <default>false</default>
+                <label>Superstar</label>
+            </value>
+            <value>
+                <fullName>TARMAC</fullName>
+                <default>false</default>
+                <label>TARMAC</label>
+            </value>
+            <value>
+                <fullName>SOLIDPLUS</fullName>
+                <default>false</default>
+                <label>SOLIDPLUS</label>
+            </value>
+            <value>
+                <fullName>TRAXMAX</fullName>
+                <default>false</default>
+                <label>TRAXMAX</label>
+            </value>
+            <value>
+                <fullName>BKP TRAXMAX</fullName>
+                <default>false</default>
+                <label>BKP TRAXMAX</label>
+            </value>
+            <value>
+                <fullName>JRS</fullName>
+                <default>false</default>
+                <label>JRS</label>
+            </value>
+            <value>
+                <fullName>RAYBAR</fullName>
+                <default>false</default>
+                <label>RAYBAR</label>
+            </value>
+            <value>
+                <fullName>MARASTAR</fullName>
+                <default>false</default>
+                <label>MARASTAR</label>
+            </value>
+            <value>
+                <fullName>CEAT</fullName>
+                <default>false</default>
+                <label>CEAT</label>
+            </value>
+            <value>
+                <fullName>ATF</fullName>
+                <default>false</default>
+                <label>ATF</label>
+            </value>
+            <value>
+                <fullName>GRECKSTER MEO</fullName>
+                <default>false</default>
+                <label>GRECKSTER MEO</label>
+            </value>
+            <value>
+                <fullName>MOBILE HOME</fullName>
+                <default>false</default>
+                <label>MOBILE HOME</label>
+            </value>
+            <value>
+                <fullName>FAUCON TIRES</fullName>
+                <default>false</default>
+                <label>FAUCON TIRES</label>
+            </value>
+            <value>
+                <fullName>THOMASSEN METAALBOUW</fullName>
+                <default>false</default>
+                <label>THOMASSEN METAALBOUW</label>
+            </value>
+            <value>
+                <fullName>G-LIFT</fullName>
+                <default>false</default>
+                <label>G-LIFT</label>
+            </value>
+            <value>
+                <fullName>SALSONS</fullName>
+                <default>false</default>
+                <label>SALSONS</label>
+            </value>
+            <value>
+                <fullName>TOUGH</fullName>
+                <default>false</default>
+                <label>TOUGH</label>
+            </value>
+            <value>
+                <fullName>CLYDE</fullName>
+                <default>false</default>
+                <label>CLYDE</label>
+            </value>
+            <value>
+                <fullName>SOLID MASTER</fullName>
+                <default>false</default>
+                <label>SOLID MASTER</label>
+            </value>
+            <value>
+                <fullName>Doosan</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Doosan</label>
+            </value>
+            <value>
+                <fullName>Ecostar</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Ecostar</label>
+            </value>
+            <value>
+                <fullName>FITMENT</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>FITMENT</label>
+            </value>
+            <value>
+                <fullName>FLAP</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>FLAP</label>
+            </value>
+            <value>
+                <fullName>MEO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>MEO</label>
+            </value>
+            <value>
+                <fullName>Premia</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Premia</label>
+            </value>
+            <value>
+                <fullName>RIM</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>RIM</label>
+            </value>
+            <value>
+                <fullName>Solid Plus</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Solid Plus</label>
+            </value>
+            <value>
+                <fullName>TUBES</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>TUBES</label>
+            </value>
+            <value>
+                <fullName>WHEEL HUB</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>WHEEL HUB</label>
+            </value>
+            <value>
+                <fullName>Xtreme</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Xtreme</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

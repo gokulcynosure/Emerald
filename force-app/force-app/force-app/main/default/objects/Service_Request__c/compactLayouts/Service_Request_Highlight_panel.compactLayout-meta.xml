@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Service_Request_Highlight_panel</fullName>
+    <fields>Name</fields>
+    <fields>From_Sender__c</fields>
+    <fields>Date__c</fields>
+    <fields>To_Recipient__c</fields>
+    <fields>Closing_date__c</fields>
+    <label>Service Request Highlight panel</label>
+</CompactLayout>

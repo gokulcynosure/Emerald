@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Export Other Customer</label>
+    <protected>false</protected>
+    <values>
+        <field>Account_No__c</field>
+        <value xsi:type="xsd:double">3.0021680668E10</value>
+    </values>
+    <values>
+        <field>Active__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>AddressLine__c</field>
+        <value xsi:type="xsd:string">MVJ TOWERS, KILPAUK</value>
+    </values>
+    <values>
+        <field>Bank_Name__c</field>
+        <value xsi:type="xsd:string">STATE BANK OF INDIA</value>
+    </values>
+    <values>
+        <field>Branch__c</field>
+        <value xsi:type="xsd:string">LEATHER &amp; INTERNATIONAL BRANCH</value>
+    </values>
+    <values>
+        <field>City__c</field>
+        <value xsi:type="xsd:string">CHENNAI</value>
+    </values>
+    <values>
+        <field>Country__c</field>
+        <value xsi:type="xsd:string">India</value>
+    </values>
+    <values>
+        <field>Pin_Code__c</field>
+        <value xsi:type="xsd:double">600010.0</value>
+    </values>
+    <values>
+        <field>RTGS_NEFT_IFSC_CODE__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>SWIFT_ADDRESS__c</field>
+        <value xsi:type="xsd:string">SBININBB148</value>
+    </values>
+</CustomMetadata>

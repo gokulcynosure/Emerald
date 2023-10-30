@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tread_Wear_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Tread Wear Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Even</fullName>
+                <default>false</default>
+                <label>Even</label>
+            </value>
+            <value>
+                <fullName>Taper</fullName>
+                <default>false</default>
+                <label>Taper</label>
+            </value>
+            <value>
+                <fullName>Wavy</fullName>
+                <default>false</default>
+                <label>Wavy</label>
+            </value>
+            <value>
+                <fullName>HTW</fullName>
+                <default>false</default>
+                <label>HTW</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

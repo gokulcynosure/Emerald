@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Heat_Spot_Source_On_Tyre_If_Any__c</fullName>
+    <externalId>false</externalId>
+    <label>Heat Spot Source On Tyre If Any</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Motor</fullName>
+                <default>false</default>
+                <label>Motor</label>
+            </value>
+            <value>
+                <fullName>Engine</fullName>
+                <default>false</default>
+                <label>Engine</label>
+            </value>
+            <value>
+                <fullName>Work Place</fullName>
+                <default>false</default>
+                <label>Work Place</label>
+            </value>
+            <value>
+                <fullName>Ambient</fullName>
+                <default>false</default>
+                <label>Ambient</label>
+            </value>
+            <value>
+                <fullName>Continuous Usage</fullName>
+                <default>false</default>
+                <label>Continuous Usage</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

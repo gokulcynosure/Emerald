@@ -1,0 +1,131 @@
+<apex:page Controller="EM_QuoteLineItemsExtension" renderAs="pdf" standardStylesheets="false" applyHtmlTag="false" applyBodyTag="false"
+showHeader="false"> 
+    <html>
+    <head>
+        <style type="text/css" media="print">
+            @page {
+            padding-top: 0%;
+
+            size: A4;
+            
+            margin: 3cm 1.5cm 3.5cm 1.5cm;
+            @top-center {
+            content: element(header);
+            }
+
+            
+            @bottom-center {
+            content: element(footer);
+            }
+            @bottom-right {
+            font-family: Arial Unicode MS;
+            font-size: 6pt;
+            content: " ";
+            }
+            }
+            div.header {
+            padding: 7.3px;
+            position: running(header);
+            }
+            
+            div.footer {
+            display: block;
+            padding: 5px;
+            position: running(footer);
+            }     
+            .pagenumber:before {
+                content: counter(page);
+            }
+            .pagecount:before {
+                content: counter(pages);
+            }
+            .container {
+                display: flex;
+                flex-direction: column;
+                min-height: 100vh;
+    }
+
+    .content {
+        flex: 1;
+        padding-bottom: 50px; /* Adjust this value to match the height of your footer */
+    }    
+            </style>
+      </head>
+
+      <body>
+        <div class="header">
+            <table style="font-weight: lighter; font-family: verdana; font-size: 9px; border: 1px solid black; width: 100%;margin-bottom:0px">
+        <tr>
+            <td style="text-align: left; vertical-align: top; padding-top: 10px;">
+                <img src="{!URLFOR($Resource.BusinessLogo)}" title="logo" width="150" height="80" align="left" />
+                <br/> <br/> 
+            </td>
+            <td style="text-align: center; ">
+                <p style="font-weight: bold; font-family: verdana; font-size: 11px; margin-bottom: 0;">
+                    <apex:outputText value="{!$Label.CompanyNameLabel}" /> <br/> 
+                </p>
+                <p class="company-address" style="font-weight: lighter; font-family: verdana; font-size: 9PX; margin-top: 0;">
+                    <apex:outputText value="{!$Label.AddressLine1}" />
+                    <br />
+                    <apex:outputText value="{!$Label.AddressLine2}" />
+                    <br />
+                    <apex:outputText value="{!$Label.AddressLine3}" />
+                    <br />
+                    <apex:outputText value="{!$Label.AddressLine4}" />
+                    <br />
+                    <apex:outputText value="{!$Label.AddressLine5}" />
+                    <br/><br/><br/>
+                </p>
+            </td>
+            <td>
+            </td>
+        </tr>
+    </table>
+        </div>
+
+        <div class="footer">
+           <div style="font-weight:bold;font-family:verdana;font-size:9PX;padding:3px">Page <span class="pagenumber"/> of <span class="pagecount"/></div>
+        </div>
+          
+
+	 <table style="font-weight: lighter; font-family: verdana; font-size: 9px; border: 1px solid black; width: 100%;">
+
+			<tr>
+        <th colspan="2" style="font-weight: bold; font-family: verdana; font-size: 12px; text-align: center;">
+            Customer Report Form
+        </th>
+                
+    </tr>
+         <tr></tr>
+          <th style = "font-weight:bold;font-family:verdana;font-size:10px;" rowspan="3">
+                Customer Name: <span style = "font-weight:lighter;font-family:verdana;font-size:10px;padding:3px;text-allign:right;">&nbsp;&nbsp;{!currentQuote.Account.Name} </span> <br/> <br/>
+              	Quote No: <span style = "font-weight:lighter;font-family:verdana;font-size:10px;padding:3px">&nbsp;&nbsp;{!currentQuote.QuoteNumber} </span> <br/> <br/>
+              	Customer Enquiry Date: <span style = "font-weight:lighter;font-family:verdana;font-size:10px;padding:3px"> &nbsp;&nbsp;<apex:outputText style="font-weight:lighter;font-family:verdana;font-size:10PX;padding: 5px;" value="{0,date,dd/MM/yyyy}">
+                    <apex:param value="{!currentQuote.Customer_Enquiry_Date__c}" />
+                </apex:outputText> </span> <br/> <br/>
+              	Any Changes in the Customer Master: <span style = "font-weight:lighter;font-family:verdana;font-size:10px;padding:3px"> <apex:outputText value="{!IF(ISNULL(reviewForm) || reviewForm.size == 0 || ISNULL(reviewForm[0].Any_Changes_in_the_Customer_Master__c), '', reviewForm[0].Any_Changes_in_the_Customer_Master__c)}"  /> </span> <br/> <br/>
+              	Any stated requirement for this specific transactions: <span style = "font-weight:lighter;font-family:verdana;font-size:10px;padding:3px"> <apex:outputText value="{!IF(ISNULL(reviewForm) || reviewForm.size == 0 || ISNULL(reviewForm[0].Any_stated_requirement_for_this_specific__c), '', reviewForm[0].Any_stated_requirement_for_this_specific__c)}"  /> </span> <br/> <br/>
+              	Any implied requirement for this specific transactions: <span style = "font-weight:lighter;font-family:verdana;font-size:10px;padding:3px"> <apex:outputText value="{!IF(ISNULL(reviewForm) || reviewForm.size == 0 || ISNULL(reviewForm[0].Any_implied_requirement__c), '', reviewForm[0].Any_implied_requirement__c)}"  /> </span> <br/> <br/>
+              	Any specific Statutory/Legal requirements to be complied with: <span style = "font-weight:lighter;font-family:verdana;font-size:10px;padding:3px"> <apex:outputText value="{!IF(ISNULL(reviewForm) || reviewForm.size == 0 || ISNULL(reviewForm[0].Any_specific_Statutory_Legal_requirement__c), '', reviewForm[0].Any_specific_Statutory_Legal_requirement__c)}"  /> </span> <br/> <br/>
+              	Any special instructions /remarks to note: <span style = "font-weight:lighter;font-family:verdana;font-size:10px;padding:3px"> <apex:outputText value="{!IF(ISNULL(reviewForm) || reviewForm.size == 0 || ISNULL(reviewForm[0].Any_special_instructions_remarks_to_note__c), '', reviewForm[0].Any_special_instructions_remarks_to_note__c)}"  /> </span> <br/> <br/>
+                
+                
+                 
+            </th>
+       
+    </table>
+
+           
+
+            
+            
+            
+    </body>
+            
+        
+        
+     
+    
+</html>
+
+</apex:page>

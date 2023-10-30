@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Competitor_Highlights</fullName>
+    <fields>Name</fields>
+    <fields>Zone__c</fields>
+    <fields>Source_Ref__c</fields>
+    <fields>Subject_Related_to__c</fields>
+    <fields>Related_to__c</fields>
+    <fields>Application__c</fields>
+    <label>Competitor Highlights</label>
+</CompactLayout>

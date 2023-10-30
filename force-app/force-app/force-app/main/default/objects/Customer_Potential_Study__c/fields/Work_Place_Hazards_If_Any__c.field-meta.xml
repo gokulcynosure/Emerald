@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Work_Place_Hazards_If_Any__c</fullName>
+    <externalId>false</externalId>
+    <label>Work Place Hazards If Any</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Metal scrap</fullName>
+                <default>false</default>
+                <label>Metal scrap</label>
+            </value>
+            <value>
+                <fullName>Grating</fullName>
+                <default>false</default>
+                <label>Grating</label>
+            </value>
+            <value>
+                <fullName>Racks</fullName>
+                <default>false</default>
+                <label>Racks</label>
+            </value>
+            <value>
+                <fullName>Oil</fullName>
+                <default>false</default>
+                <label>Oil</label>
+            </value>
+            <value>
+                <fullName>Lubricant</fullName>
+                <default>false</default>
+                <label>Lubricant</label>
+            </value>
+            <value>
+                <fullName>Heat Spot</fullName>
+                <default>false</default>
+                <label>Heat Spot</label>
+            </value>
+            <value>
+                <fullName>Chemicals</fullName>
+                <default>false</default>
+                <label>Chemicals</label>
+            </value>
+            <value>
+                <fullName>Littered Paper</fullName>
+                <default>false</default>
+                <label>Littered Paper</label>
+            </value>
+            <value>
+                <fullName>Others</fullName>
+                <default>false</default>
+                <label>Others</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

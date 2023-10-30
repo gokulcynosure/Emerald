@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Price_With_Tax__c</fullName>
+    <description>Here Total field calculating total amount + tax amount</description>
+    <externalId>false</externalId>
+    <formula>Quote_Total_Price_With_Discount__c +  Quote_Tax__c +  Other_Charges__c + Freight_INR__c +  Freight_Tax_Amount__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Total Price With Tax</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

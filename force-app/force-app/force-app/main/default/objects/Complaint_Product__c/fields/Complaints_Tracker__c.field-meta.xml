@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Complaints_Tracker__c</fullName>
+    <externalId>false</externalId>
+    <label>Complaints Tracker</label>
+    <referenceTo>Complaints_Tracker__c</referenceTo>
+    <relationshipLabel>Complaint Products</relationshipLabel>
+    <relationshipName>Complaint_Products</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

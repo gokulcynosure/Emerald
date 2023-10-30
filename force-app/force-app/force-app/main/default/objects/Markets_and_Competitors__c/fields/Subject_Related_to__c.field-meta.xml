@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Subject_Related_to__c</fullName>
+    <externalId>false</externalId>
+    <label>Subject - Related to</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Price</fullName>
+                <default>false</default>
+                <label>Price</label>
+            </value>
+            <value>
+                <fullName>Performance</fullName>
+                <default>false</default>
+                <label>Performance</label>
+            </value>
+            <value>
+                <fullName>Complaints</fullName>
+                <default>false</default>
+                <label>Complaints</label>
+            </value>
+            <value>
+                <fullName>Feedbacks</fullName>
+                <default>false</default>
+                <label>Feedbacks</label>
+            </value>
+            <value>
+                <fullName>New Product  Intro</fullName>
+                <default>false</default>
+                <label>New Product  Intro</label>
+            </value>
+            <value>
+                <fullName>Product promo</fullName>
+                <default>false</default>
+                <label>Product promo</label>
+            </value>
+            <value>
+                <fullName>People</fullName>
+                <default>false</default>
+                <label>People</label>
+            </value>
+            <value>
+                <fullName>Process</fullName>
+                <default>false</default>
+                <label>Process</label>
+            </value>
+            <value>
+                <fullName>New size opportunities</fullName>
+                <default>false</default>
+                <label>New size opportunities</label>
+            </value>
+            <value>
+                <fullName>New Product opportunities</fullName>
+                <default>false</default>
+                <label>New Product opportunities</label>
+            </value>
+            <value>
+                <fullName>Expo/Trade fair</fullName>
+                <default>false</default>
+                <label>Expo/Trade fair</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

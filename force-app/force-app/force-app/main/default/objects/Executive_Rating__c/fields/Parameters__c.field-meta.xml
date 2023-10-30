@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Parameters__c</fullName>
+    <externalId>false</externalId>
+    <label>Parameters</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Life</fullName>
+                <default>false</default>
+                <label>Life</label>
+            </value>
+            <value>
+                <fullName>Peformance</fullName>
+                <default>false</default>
+                <label>Peformance</label>
+            </value>
+            <value>
+                <fullName>Aesthetics</fullName>
+                <default>false</default>
+                <label>Aesthetics</label>
+            </value>
+            <value>
+                <fullName>Fitment</fullName>
+                <default>false</default>
+                <label>Fitment</label>
+            </value>
+            <value>
+                <fullName>Dimension</fullName>
+                <default>false</default>
+                <label>Dimension</label>
+            </value>
+            <value>
+                <fullName>Price</fullName>
+                <default>false</default>
+                <label>Price</label>
+            </value>
+            <value>
+                <fullName>Timely Delivery</fullName>
+                <default>false</default>
+                <label>Timely Delivery</label>
+            </value>
+            <value>
+                <fullName>Ease to access personal</fullName>
+                <default>false</default>
+                <label>Ease to access personal</label>
+            </value>
+            <value>
+                <fullName>Timely Response to communication</fullName>
+                <default>false</default>
+                <label>Timely Response to communication</label>
+            </value>
+            <value>
+                <fullName>Timely attn to prod/Serv complaint</fullName>
+                <default>false</default>
+                <label>Timely attn to prod/Serv complaint</label>
+            </value>
+            <value>
+                <fullName>PO acknow &amp; tmely Commit</fullName>
+                <default>false</default>
+                <label>PO acknow &amp; tmely Commit</label>
+            </value>
+            <value>
+                <fullName>Version Diffrn.</fullName>
+                <default>false</default>
+                <label>Version Diffrn.</label>
+            </value>
+            <value>
+                <fullName>Stencil / Size marking</fullName>
+                <default>false</default>
+                <label>Stencil / Size marking</label>
+            </value>
+            <value>
+                <fullName>Inadequate technical info</fullName>
+                <default>false</default>
+                <label>Inadequate technical info</label>
+            </value>
+            <value>
+                <fullName>Packing</fullName>
+                <default>false</default>
+                <label>Packing</label>
+            </value>
+            <value>
+                <fullName>On time Deivery Intimation</fullName>
+                <default>false</default>
+                <label>On time Deivery Intimation</label>
+            </value>
+            <value>
+                <fullName>Courier Service</fullName>
+                <default>false</default>
+                <label>Courier Service</label>
+            </value>
+            <value>
+                <fullName>Transport Service</fullName>
+                <default>false</default>
+                <label>Transport Service</label>
+            </value>
+            <value>
+                <fullName>QC Report</fullName>
+                <default>false</default>
+                <label>QC Report</label>
+            </value>
+            <value>
+                <fullName>Documentation</fullName>
+                <default>false</default>
+                <label>Documentation</label>
+            </value>
+            <value>
+                <fullName>Customer Grading</fullName>
+                <default>false</default>
+                <label>Customer Grading</label>
+            </value>
+            <value>
+                <fullName>Total Indl tyre solutions</fullName>
+                <default>false</default>
+                <label>Total Indl tyre solutions</label>
+            </value>
+            <value>
+                <fullName>Import substitute</fullName>
+                <default>false</default>
+                <label>Import substitute</label>
+            </value>
+            <value>
+                <fullName>Tyre-Wheel assembly</fullName>
+                <default>false</default>
+                <label>Tyre-Wheel assembly</label>
+            </value>
+            <value>
+                <fullName>Fitment Solution</fullName>
+                <default>false</default>
+                <label>Fitment Solution</label>
+            </value>
+            <value>
+                <fullName>Customised solutions</fullName>
+                <default>false</default>
+                <label>Customised solutions</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

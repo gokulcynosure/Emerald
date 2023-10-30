@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Average_Speed_Range__c</fullName>
+    <externalId>false</externalId>
+    <label>Average Speed Range</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>0-06 kmph</fullName>
+                <default>false</default>
+                <label>0-06 kmph</label>
+            </value>
+            <value>
+                <fullName>07 -10 kmph</fullName>
+                <default>false</default>
+                <label>07 -10 kmph</label>
+            </value>
+            <value>
+                <fullName>11-15 kmph</fullName>
+                <default>false</default>
+                <label>11-15 kmph</label>
+            </value>
+            <value>
+                <fullName>16-25kmph</fullName>
+                <default>false</default>
+                <label>16-25kmph</label>
+            </value>
+            <value>
+                <fullName>25-40 kmph</fullName>
+                <default>false</default>
+                <label>25-40 kmph</label>
+            </value>
+            <value>
+                <fullName>&gt;40 kmph</fullName>
+                <default>false</default>
+                <label>&gt;40 kmph</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

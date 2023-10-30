@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Freight_And_Other_Charges__c</fullName>
+    <externalId>false</externalId>
+    <formula>SyncedQuote.Freight_INR__c + SyncedQuote.Freight_Tax_Amount__c +  SyncedQuote.Other_Charges__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Freight And Other Charges</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

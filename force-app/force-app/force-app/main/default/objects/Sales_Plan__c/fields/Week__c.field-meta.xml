@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Week__c</fullName>
+    <externalId>false</externalId>
+    <label>Week</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Month__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Day 01-Day 07</fullName>
+                <default>false</default>
+                <label>Day 01-Day 07</label>
+            </value>
+            <value>
+                <fullName>Day 08-Day 15</fullName>
+                <default>false</default>
+                <label>Day 08-Day 15</label>
+            </value>
+            <value>
+                <fullName>Day 16-Day 23</fullName>
+                <default>false</default>
+                <label>Day 16-Day 23</label>
+            </value>
+            <value>
+                <fullName>Day 24-Day 31</fullName>
+                <default>false</default>
+                <label>Day 24-Day 31</label>
+            </value>
+            <value>
+                <fullName>Day 24-Day 30</fullName>
+                <default>false</default>
+                <label>Day 24-Day 30</label>
+            </value>
+            <value>
+                <fullName>Day 24-Day 28</fullName>
+                <default>false</default>
+                <label>Day 24-Day 28</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>November</controllingFieldValue>
+            <controllingFieldValue>January</controllingFieldValue>
+            <controllingFieldValue>December</controllingFieldValue>
+            <controllingFieldValue>February</controllingFieldValue>
+            <controllingFieldValue>March</controllingFieldValue>
+            <controllingFieldValue>April</controllingFieldValue>
+            <controllingFieldValue>May</controllingFieldValue>
+            <controllingFieldValue>June</controllingFieldValue>
+            <controllingFieldValue>July</controllingFieldValue>
+            <controllingFieldValue>August</controllingFieldValue>
+            <controllingFieldValue>September</controllingFieldValue>
+            <controllingFieldValue>October</controllingFieldValue>
+            <valueName>Day 01-Day 07</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>November</controllingFieldValue>
+            <controllingFieldValue>January</controllingFieldValue>
+            <controllingFieldValue>December</controllingFieldValue>
+            <controllingFieldValue>February</controllingFieldValue>
+            <controllingFieldValue>March</controllingFieldValue>
+            <controllingFieldValue>April</controllingFieldValue>
+            <controllingFieldValue>May</controllingFieldValue>
+            <controllingFieldValue>June</controllingFieldValue>
+            <controllingFieldValue>July</controllingFieldValue>
+            <controllingFieldValue>August</controllingFieldValue>
+            <controllingFieldValue>September</controllingFieldValue>
+            <controllingFieldValue>October</controllingFieldValue>
+            <valueName>Day 08-Day 15</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>November</controllingFieldValue>
+            <controllingFieldValue>January</controllingFieldValue>
+            <controllingFieldValue>December</controllingFieldValue>
+            <controllingFieldValue>February</controllingFieldValue>
+            <controllingFieldValue>March</controllingFieldValue>
+            <controllingFieldValue>April</controllingFieldValue>
+            <controllingFieldValue>May</controllingFieldValue>
+            <controllingFieldValue>June</controllingFieldValue>
+            <controllingFieldValue>July</controllingFieldValue>
+            <controllingFieldValue>August</controllingFieldValue>
+            <controllingFieldValue>September</controllingFieldValue>
+            <controllingFieldValue>October</controllingFieldValue>
+            <valueName>Day 16-Day 23</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>November</controllingFieldValue>
+            <controllingFieldValue>April</controllingFieldValue>
+            <controllingFieldValue>June</controllingFieldValue>
+            <controllingFieldValue>September</controllingFieldValue>
+            <valueName>Day 24-Day 30</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>January</controllingFieldValue>
+            <controllingFieldValue>December</controllingFieldValue>
+            <controllingFieldValue>March</controllingFieldValue>
+            <controllingFieldValue>May</controllingFieldValue>
+            <controllingFieldValue>July</controllingFieldValue>
+            <controllingFieldValue>August</controllingFieldValue>
+            <controllingFieldValue>October</controllingFieldValue>
+            <valueName>Day 24-Day 31</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>February</controllingFieldValue>
+            <valueName>Day 24-Day 28</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

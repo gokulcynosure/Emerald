@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Price_Temp__c</fullName>
+    <externalId>false</externalId>
+    <formula>Quantity * (UnitPrice - (ROUND(UnitPrice *  Opp_Product_Discount__c , 2))) * (1 - (  PPD_Discount__c  +  VD_Discount__c  + SPL_DISCOUNT__c ))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Total Price Temp</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <type>Currency</type>
+</CustomField>

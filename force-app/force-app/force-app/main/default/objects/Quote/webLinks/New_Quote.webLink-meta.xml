@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Quote</fullName>
+    <availability>online</availability>
+    <displayType>massActionButton</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>New Quote</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <requireRowSelection>true</requireRowSelection>
+    <url>/lightning/o/Quote/new?override=1&amp;defaultFieldValues=Billing_Address_Line_1__c={!Account.Billing_Address_Line_1__c},OpportunityId={!Opportunity.Id},AccountId={!Account.Id},Billing_Address_Line_2__c={!Account.Billing_Address_Line_2__c},Billing_Address_Line_3__c={!Account.Billing_Address_Line_3__c},Billing_Place__c={!Account.Billing_Place__c},Billing_Country__c={!Account.Billing_Country__c},Billing_State__c={!Account.Billing_State__c},Billing_District__c={!Account.Billing_District__c},Billing_Pincode__c={!Account.Billing_Pincode__c},Shipping_Address_Line_1__c={!Account.Shipping_Address_Line_1__c},Shipping_Address_Line_2__c={!Account.Shipping_Address_Line_2__c},Shipping_Address_Line_3__c={!Account.Shipping_Address_Line_3__c},Shipping_Place__c={!Account.Shipping_Place__c},Shipping_District__c={!Account.Shipping_District__c},Shipping_State__c={!Account.Shipping_State__c},Shipping_Country__c={!Account.Shipping_Country__c},Shipping_Pincode__c={!Account.Shipping_Pincode__c},Credit_Term__c={!Account.Credit_Term__c},Freight__c={!Account.Freight__c},Delivery__c={!Account.Delivery__c},Customer__c={!Account.Id},
+Place_Of_Supply__c={!Account.Shipping_Place__c},Mode_of_Transport__c={!Account.Mode_of_Transport__c},Insurance__c={!Account.Insurance__c},BankAccount__c={!Account.BankAccountId__c},Billing_Continent__c={!Account.Continent__c},Shipping_Continent__c={!Account.Shipping_Continent__c},Market__c={!Account.Market__c},CurrencyIsoCode={!Opportunity.CurrencyIsoCode}</url>
+</WebLink>

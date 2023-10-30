@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Service_Requests</fullName>
+    <columns>NAME</columns>
+    <columns>From_Sender__c</columns>
+    <columns>To_Recipient__c</columns>
+    <columns>Start_End_No_of_days__c</columns>
+    <filterScope>Mine</filterScope>
+    <label>My Service Requests</label>
+</ListView>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mktg__c</fullName>
+    <externalId>false</externalId>
+    <label>Mktg Observation</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Non-Warrantable</fullName>
+                <default>false</default>
+                <label>Non-Warrantable</label>
+            </value>
+            <value>
+                <fullName>Cut Damage</fullName>
+                <default>false</default>
+                <label>Cut Damage</label>
+            </value>
+            <value>
+                <fullName>Competitors Brand</fullName>
+                <default>false</default>
+                <label>Competitors Brand</label>
+            </value>
+            <value>
+                <fullName>CFIR Pending</fullName>
+                <default>false</default>
+                <label>CFIR Pending</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

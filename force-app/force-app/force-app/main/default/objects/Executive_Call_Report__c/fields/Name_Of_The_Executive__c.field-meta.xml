@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Name_Of_The_Executive__c</fullName>
+    <externalId>false</externalId>
+    <label>Name Of The Executive</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Rajagopalan T S</fullName>
+                <default>false</default>
+                <label>Rajagopalan T S</label>
+            </value>
+            <value>
+                <fullName>Avinash Mani Tripathi</fullName>
+                <default>false</default>
+                <label>Avinash Mani Tripathi</label>
+            </value>
+            <value>
+                <fullName>Ganesan M</fullName>
+                <default>false</default>
+                <label>Ganesan M</label>
+            </value>
+            <value>
+                <fullName>Avijit Roy</fullName>
+                <default>false</default>
+                <label>Avijit Roy</label>
+            </value>
+            <value>
+                <fullName>Kanheyalal P S</fullName>
+                <default>false</default>
+                <label>Kanheyalal P S</label>
+            </value>
+            <value>
+                <fullName>Sriram K N</fullName>
+                <default>false</default>
+                <label>Sriram K N</label>
+            </value>
+            <value>
+                <fullName>Santhanam V</fullName>
+                <default>false</default>
+                <label>Santhanam V</label>
+            </value>
+            <value>
+                <fullName>Kiran Kumar K S</fullName>
+                <default>false</default>
+                <label>Kiran Kumar K S</label>
+            </value>
+            <value>
+                <fullName>Sridhar Babu K</fullName>
+                <default>false</default>
+                <label>Sridhar Babu K</label>
+            </value>
+            <value>
+                <fullName>Ramesh N</fullName>
+                <default>false</default>
+                <label>Ramesh N</label>
+            </value>
+            <value>
+                <fullName>Gnana Desegan</fullName>
+                <default>false</default>
+                <label>Gnana Desegan</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

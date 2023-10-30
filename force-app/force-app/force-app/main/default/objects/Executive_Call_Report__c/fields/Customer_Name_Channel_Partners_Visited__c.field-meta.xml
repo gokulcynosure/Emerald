@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_Name_Channel_Partners_Visited__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>PROVIDE THE DETAILS OF ALL THE CUSTOMERS/CHANNEL PARTNERS VISITED</inlineHelpText>
+    <label>Customer Name/Channel Partners Visited</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

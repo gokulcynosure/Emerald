@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Payment_Term__c</fullName>
+    <externalId>false</externalId>
+    <label>Payment Term</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>10 % ADVANCE, 90% AGAINST LETTER OF CREDIT</fullName>
+                <default>false</default>
+                <label>10 % ADVANCE, 90% AGAINST LETTER OF CREDIT</label>
+            </value>
+            <value>
+                <fullName>10 DAYS AFTER COMPLETION OF WORK</fullName>
+                <default>false</default>
+                <label>10 DAYS AFTER COMPLETION OF WORK</label>
+            </value>
+            <value>
+                <fullName>10 DAYS AGAINST POST DATED CHEQUE</fullName>
+                <default>false</default>
+                <label>10 DAYS AGAINST POST DATED CHEQUE</label>
+            </value>
+            <value>
+                <fullName>10 Days credit</fullName>
+                <default>false</default>
+                <label>10 Days credit</label>
+            </value>
+            <value>
+                <fullName>10% ADVANCE, BALANCE AGAINST CONFIRMATION OF READINESS OF GOODS FOR DESPATCH</fullName>
+                <default>false</default>
+                <label>10% ADVANCE, BALANCE AGAINST CONFIRMATION OF READINESS OF GOODS FOR DESPATCH</label>
+            </value>
+            <value>
+                <fullName>100 % ADVANCE.</fullName>
+                <default>false</default>
+                <label>100 % ADVANCE.</label>
+            </value>
+            <value>
+                <fullName>100% ADVANCE</fullName>
+                <default>false</default>
+                <label>100% ADVANCE</label>
+            </value>
+            <value>
+                <fullName>100% ADVANCE PAYMENT</fullName>
+                <default>false</default>
+                <label>100% ADVANCE PAYMENT</label>
+            </value>
+            <value>
+                <fullName>100% ADVANCE THROUGH WIRE TRANSFER</fullName>
+                <default>false</default>
+                <label>100% ADVANCE THROUGH WIRE TRANSFER</label>
+            </value>
+            <value>
+                <fullName>100% AGAINST DELIVERY</fullName>
+                <default>false</default>
+                <label>100% AGAINST DELIVERY</label>
+            </value>
+            <value>
+                <fullName>100% AGAINST PROFORMA INVOICE</fullName>
+                <default>false</default>
+                <label>100% AGAINST PROFORMA INVOICE</label>
+            </value>
+            <value>
+                <fullName>100% PAYMENT AGAINST BILL OF LADING</fullName>
+                <default>false</default>
+                <label>100% PAYMENT AGAINST BILL OF LADING</label>
+            </value>
+            <value>
+                <fullName>120 DAYS FROM THE DATE OF INVOICE</fullName>
+                <default>false</default>
+                <label>120 DAYS FROM THE DATE OF INVOICE</label>
+            </value>
+            <value>
+                <fullName>15 DAYS AGAINST POST DATED CHEQUE</fullName>
+                <default>false</default>
+                <label>15 DAYS AGAINST POST DATED CHEQUE</label>
+            </value>
+            <value>
+                <fullName>15 DAYS CREDIT</fullName>
+                <default>false</default>
+                <label>15 DAYS CREDIT</label>
+            </value>
+            <value>
+                <fullName>20 % ADVANCE TT BALANCE AGAINST THE BL</fullName>
+                <default>false</default>
+                <label>20 % ADVANCE TT BALANCE AGAINST THE BL</label>
+            </value>
+            <value>
+                <fullName>20% ADVANCE, BALANCE AGAINST CONFIRMATION OF READINESS OF GOODS FOR DESPATCH</fullName>
+                <default>false</default>
+                <label>20% ADVANCE, BALANCE AGAINST CONFIRMATION OF READINESS OF GOODS FOR DESPATCH</label>
+            </value>
+            <value>
+                <fullName>25% ADVANCE &amp; BALANCE 75% AGAINST D.P. AT SIGHT VIA BANK</fullName>
+                <default>false</default>
+                <label>25% ADVANCE &amp; BALANCE 75% AGAINST D.P. AT SIGHT VIA BANK</label>
+            </value>
+            <value>
+                <fullName>25% ADVANCE BALANCE AGAINST PROFORMA INVOICE</fullName>
+                <default>false</default>
+                <label>25% ADVANCE BALANCE AGAINST PROFORMA INVOICE</label>
+            </value>
+            <value>
+                <fullName>25% ADVANCE, BALANCE AGAINST CONFIRMATION OF READINESS OF GOODS FOR DESPATCH</fullName>
+                <default>false</default>
+                <label>25% ADVANCE, BALANCE AGAINST CONFIRMATION OF READINESS OF GOODS FOR DESPATCH</label>
+            </value>
+            <value>
+                <fullName>30 DAYS AGAINST POST DATED CHEQUES</fullName>
+                <default>false</default>
+                <label>30 DAYS AGAINST POST DATED CHEQUES</label>
+            </value>
+            <value>
+                <fullName>30 DAYS CREDIT</fullName>
+                <default>false</default>
+                <label>30 DAYS CREDIT</label>
+            </value>
+            <value>
+                <fullName>30 DAYS FROM BL SHIPPED ON BOARD DATE</fullName>
+                <default>false</default>
+                <label>30 DAYS FROM BL SHIPPED ON BOARD DATE</label>
+            </value>
+            <value>
+                <fullName>30 DAYS FROM THE DATE OF INVOICE</fullName>
+                <default>false</default>
+                <label>30 DAYS FROM THE DATE OF INVOICE</label>
+            </value>
+            <value>
+                <fullName>30% ADVANCE  &amp; 70% AGAINST BILL OF LADING</fullName>
+                <default>false</default>
+                <label>30% ADVANCE  &amp; 70% AGAINST BILL OF LADING</label>
+            </value>
+            <value>
+                <fullName>30% ADVANCE  &amp; 70% AGAINST PROFORMA INVOICE</fullName>
+                <default>false</default>
+                <label>30% ADVANCE  &amp; 70% AGAINST PROFORMA INVOICE</label>
+            </value>
+            <value>
+                <fullName>30% ADVANCE, 50% ON PROGRESS, 20%ON COMMISSIONING</fullName>
+                <default>false</default>
+                <label>30% ADVANCE, 50% ON PROGRESS, 20%ON COMMISSIONING</label>
+            </value>
+            <value>
+                <fullName>30% ADVANCE, BALANCE 70% AFTER 45 DAYS</fullName>
+                <default>false</default>
+                <label>30% ADVANCE, BALANCE 70% AFTER 45 DAYS</label>
+            </value>
+            <value>
+                <fullName>30% ADVANCE, BALANCE 70% DP</fullName>
+                <default>false</default>
+                <label>30% ADVANCE, BALANCE 70% DP</label>
+            </value>
+            <value>
+                <fullName>30% ADVANCE, BALANCE AGAINST CONFIRMATION OF READINESS OF GOODS FOR DESPATCH</fullName>
+                <default>false</default>
+                <label>30% ADVANCE, BALANCE AGAINST CONFIRMATION OF READINESS OF GOODS FOR DESPATCH</label>
+            </value>
+            <value>
+                <fullName>40% ADVANCE, BALANCE AGAINST CONFIRMATION OF READINESS OF GOODS FOR DESPATCH</fullName>
+                <default>false</default>
+                <label>40% ADVANCE, BALANCE AGAINST CONFIRMATION OF READINESS OF GOODS FOR DESPATCH</label>
+            </value>
+            <value>
+                <fullName>45 DAYS AGAINST LETTER OF CREDIT</fullName>
+                <default>false</default>
+                <label>45 DAYS AGAINST LETTER OF CREDIT</label>
+            </value>
+            <value>
+                <fullName>45 DAYS CREDIT</fullName>
+                <default>false</default>
+                <label>45 DAYS CREDIT</label>
+            </value>
+            <value>
+                <fullName>45 DAYS POST DATED CHEQUE</fullName>
+                <default>false</default>
+                <label>45 DAYS POST DATED CHEQUE</label>
+            </value>
+            <value>
+                <fullName>50 DAYS AGAINST POST DATED CHEQUE</fullName>
+                <default>false</default>
+                <label>50 DAYS AGAINST POST DATED CHEQUE</label>
+            </value>
+            <value>
+                <fullName>50% ADVANCE ALONG WITH PO, 40% AGAINST PROFORMA INVOICE, 10% AFTER INSTALLATION</fullName>
+                <default>false</default>
+                <label>50% ADVANCE ALONG WITH PO, 40% AGAINST PROFORMA INVOICE, 10% AFTER INSTALLATION</label>
+            </value>
+            <value>
+                <fullName>50% ADVANCE, 25% AFTER 1 MONTH, 25% AGAINST DELIVERY</fullName>
+                <default>false</default>
+                <label>50% ADVANCE, 25% AFTER 1 MONTH, 25% AGAINST DELIVERY</label>
+            </value>
+            <value>
+                <fullName>50% ADVANCE, BALANCE 50% AFTER 15 DAYS</fullName>
+                <default>false</default>
+                <label>50% ADVANCE, BALANCE 50% AFTER 15 DAYS</label>
+            </value>
+            <value>
+                <fullName>50% ADVANCE, BALANCE 50% AFTER 30 DAYS</fullName>
+                <default>false</default>
+                <label>50% ADVANCE, BALANCE 50% AFTER 30 DAYS</label>
+            </value>
+            <value>
+                <fullName>50% ADVANCE, BALANCE 50% AGAINST BILL OF LADING</fullName>
+                <default>false</default>
+                <label>50% ADVANCE, BALANCE 50% AGAINST BILL OF LADING</label>
+            </value>
+            <value>
+                <fullName>50% ADVANCE, BALANCE 50% AGAINST DELIVERY</fullName>
+                <default>false</default>
+                <label>50% ADVANCE, BALANCE 50% AGAINST DELIVERY</label>
+            </value>
+            <value>
+                <fullName>50% ADVANCE, BALANCE AGAINST CONFIRMATION OF READINESS OF GOODS FOR DESPATCH</fullName>
+                <default>false</default>
+                <label>50% ADVANCE, BALANCE AGAINST CONFIRMATION OF READINESS OF GOODS FOR DESPATCH</label>
+            </value>
+            <value>
+                <fullName>50% ADVANCE, BALANCE AGAINST DELIVERY</fullName>
+                <default>false</default>
+                <label>50% ADVANCE, BALANCE AGAINST DELIVERY</label>
+            </value>
+            <value>
+                <fullName>50% ADVANCE, BALANCE BEFORE DISPATCH OF GOODS</fullName>
+                <default>false</default>
+                <label>50% ADVANCE, BALANCE BEFORE DISPATCH OF GOODS</label>
+            </value>
+            <value>
+                <fullName>50% ADVANCE,BALANCE AFTER COMPLETION OF WORK</fullName>
+                <default>false</default>
+                <label>50% ADVANCE,BALANCE AFTER COMPLETION OF WORK</label>
+            </value>
+            <value>
+                <fullName>50% AS ADVANCE ALONG WITH ORDER, 40% AGAINST DELIVERY, 10% AFTER COMMISSIONING</fullName>
+                <default>false</default>
+                <label>50% AS ADVANCE ALONG WITH ORDER, 40% AGAINST DELIVERY, 10% AFTER COMMISSIONING</label>
+            </value>
+            <value>
+                <fullName>540 DAYS EMI</fullName>
+                <default>false</default>
+                <label>540 DAYS EMI</label>
+            </value>
+            <value>
+                <fullName>60 DAYS AGAINST LETTER OF CREDIT</fullName>
+                <default>false</default>
+                <label>60 DAYS AGAINST LETTER OF CREDIT</label>
+            </value>
+            <value>
+                <fullName>60 DAYS AGAINST POST DATED CHEQUE</fullName>
+                <default>false</default>
+                <label>60 DAYS AGAINST POST DATED CHEQUE</label>
+            </value>
+            <value>
+                <fullName>60 DAYS CREDIT</fullName>
+                <default>false</default>
+                <label>60 DAYS CREDIT</label>
+            </value>
+            <value>
+                <fullName>60 DAYS FROM DATE OF BILL OF LADING</fullName>
+                <default>false</default>
+                <label>60 DAYS FROM DATE OF BILL OF LADING</label>
+            </value>
+            <value>
+                <fullName>60 DAYS FROM DATE OF RECIEPT MATERIAL</fullName>
+                <default>false</default>
+                <label>60 DAYS FROM DATE OF RECIEPT MATERIAL</label>
+            </value>
+            <value>
+                <fullName>60% ADVANCE, BALANCE 40% AGAINST DELIVERY</fullName>
+                <default>false</default>
+                <label>60% ADVANCE, BALANCE 40% AGAINST DELIVERY</label>
+            </value>
+            <value>
+                <fullName>60% ADVANCE, BALANCE AGAINST CONFIRMATION OF READINESS OF GOODS FOR DESPATCH</fullName>
+                <default>false</default>
+                <label>60% ADVANCE, BALANCE AGAINST CONFIRMATION OF READINESS OF GOODS FOR DESPATCH</label>
+            </value>
+            <value>
+                <fullName>60% ADVANCE, BALANCE AGAINST DELIVERY</fullName>
+                <default>false</default>
+                <label>60% ADVANCE, BALANCE AGAINST DELIVERY</label>
+            </value>
+            <value>
+                <fullName>7 DAYS CREDIT</fullName>
+                <default>false</default>
+                <label>7 DAYS CREDIT</label>
+            </value>
+            <value>
+                <fullName>7 DAYS POST DATED CHEQUE</fullName>
+                <default>false</default>
+                <label>7 DAYS POST DATED CHEQUE</label>
+            </value>
+            <value>
+                <fullName>70 % ADVANCE, BALANCE AGAINST DELIVERY OF GOODS</fullName>
+                <default>false</default>
+                <label>70 % ADVANCE, BALANCE AGAINST DELIVERY OF GOODS</label>
+            </value>
+            <value>
+                <fullName>75 DAYS AGAINST LETTER OF CREDIT</fullName>
+                <default>false</default>
+                <label>75 DAYS AGAINST LETTER OF CREDIT</label>
+            </value>
+            <value>
+                <fullName>75 DAYS AGAINST POST DATED CHEQUE</fullName>
+                <default>false</default>
+                <label>75 DAYS AGAINST POST DATED CHEQUE</label>
+            </value>
+            <value>
+                <fullName>75 DAYS CREDIT</fullName>
+                <default>false</default>
+                <label>75 DAYS CREDIT</label>
+            </value>
+            <value>
+                <fullName>90 DAYS CREDIT</fullName>
+                <default>false</default>
+                <label>90 DAYS CREDIT</label>
+            </value>
+            <value>
+                <fullName>90 DAYS FROM THE DATE OF INVOICE</fullName>
+                <default>false</default>
+                <label>90 DAYS FROM THE DATE OF INVOICE</label>
+            </value>
+            <value>
+                <fullName>90% ADVANCE, 10% AGAINST INSTALLATION</fullName>
+                <default>false</default>
+                <label>90% ADVANCE, 10% AGAINST INSTALLATION</label>
+            </value>
+            <value>
+                <fullName>AGAINST COMPLETIOMN OF WORK</fullName>
+                <default>false</default>
+                <label>AGAINST COMPLETIOMN OF WORK</label>
+            </value>
+            <value>
+                <fullName>AGAINST COMPLETION OF WORK</fullName>
+                <default>false</default>
+                <label>AGAINST COMPLETION OF WORK</label>
+            </value>
+            <value>
+                <fullName>AGAINST DELIVERY</fullName>
+                <default>false</default>
+                <label>AGAINST DELIVERY</label>
+            </value>
+            <value>
+                <fullName>AGAINST DESPATCH OF MATERIALS</fullName>
+                <default>false</default>
+                <label>AGAINST DESPATCH OF MATERIALS</label>
+            </value>
+            <value>
+                <fullName>AGAINST LETTER OF CREDIT 90 DAYS</fullName>
+                <default>false</default>
+                <label>AGAINST LETTER OF CREDIT 90 DAYS</label>
+            </value>
+            <value>
+                <fullName>DUE UPON GOODS RECEIPT</fullName>
+                <default>false</default>
+                <label>DUE UPON GOODS RECEIPT</label>
+            </value>
+            <value>
+                <fullName>FREE OF COST</fullName>
+                <default>false</default>
+                <label>FREE OF COST</label>
+            </value>
+            <value>
+                <fullName>LETTER OF CREDIT  USANCE 60 DAYS</fullName>
+                <default>false</default>
+                <label>LETTER OF CREDIT  USANCE 60 DAYS</label>
+            </value>
+            <value>
+                <fullName>NETT - 30 DAYS</fullName>
+                <default>false</default>
+                <label>NETT - 30 DAYS</label>
+            </value>
+            <value>
+                <fullName>NON LC 90 DAYS COLLECTION</fullName>
+                <default>false</default>
+                <label>NON LC 90 DAYS COLLECTION</label>
+            </value>
+            <value>
+                <fullName>NON LC DP AT SIGHT</fullName>
+                <default>false</default>
+                <label>NON LC DP AT SIGHT</label>
+            </value>
+            <value>
+                <fullName>TT PAYMENT 120 DAYS</fullName>
+                <default>false</default>
+                <label>TT PAYMENT 120 DAYS</label>
+            </value>
+            <value>
+                <fullName>TT PAYMENT AGAINST BILL OF LADING</fullName>
+                <default>false</default>
+                <label>TT PAYMENT AGAINST BILL OF LADING</label>
+            </value>
+            <value>
+                <fullName>Define New</fullName>
+                <default>false</default>
+                <label>Define New</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

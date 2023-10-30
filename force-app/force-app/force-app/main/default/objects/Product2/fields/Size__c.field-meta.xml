@@ -1,0 +1,704 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Size__c</fullName>
+    <externalId>false</externalId>
+    <label>Size</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>20 X 105 X 1000</fullName>
+                <default>false</default>
+                <label>20 X 105 X 1000</label>
+            </value>
+            <value>
+                <fullName>100 X 80 - 8</fullName>
+                <default>false</default>
+                <label>100 X 80 - 8</label>
+            </value>
+            <value>
+                <fullName>10 X 16.5</fullName>
+                <default>false</default>
+                <label>10 X 16.5</label>
+            </value>
+            <value>
+                <fullName>10.00 X 20</fullName>
+                <default>false</default>
+                <label>10.00 X 20</label>
+            </value>
+            <value>
+                <fullName>10 X 4 X 6 1/2</fullName>
+                <default>false</default>
+                <label>10 X 4 X 6 1/2</label>
+            </value>
+            <value>
+                <fullName>10 X 4 X 6 1/4</fullName>
+                <default>false</default>
+                <label>10 X 4 X 6 1/4</label>
+            </value>
+            <value>
+                <fullName>10.00 X 75 - 15.3</fullName>
+                <default>false</default>
+                <label>10.00 X 75 - 15.3</label>
+            </value>
+            <value>
+                <fullName>11.00 X 20</fullName>
+                <default>false</default>
+                <label>11.00 X 20</label>
+            </value>
+            <value>
+                <fullName>11.5 X 80 - 15.3</fullName>
+                <default>false</default>
+                <label>11.5 X 80 - 15.3</label>
+            </value>
+            <value>
+                <fullName>11L - 15SL</fullName>
+                <default>false</default>
+                <label>11L - 15SL</label>
+            </value>
+            <value>
+                <fullName>12 X 16.5</fullName>
+                <default>false</default>
+                <label>12 X 16.5</label>
+            </value>
+            <value>
+                <fullName>12.00 X 20</fullName>
+                <default>false</default>
+                <label>12.00 X 20</label>
+            </value>
+            <value>
+                <fullName>12.00 X 24</fullName>
+                <default>false</default>
+                <label>12.00 X 24</label>
+            </value>
+            <value>
+                <fullName>12 X 5 1/2 X 8</fullName>
+                <default>false</default>
+                <label>12 X 5 1/2 X 8</label>
+            </value>
+            <value>
+                <fullName>12.5 X 80 - 15.3</fullName>
+                <default>false</default>
+                <label>12.5 X 80 - 15.3</label>
+            </value>
+            <value>
+                <fullName>12.5 X 80 - 18</fullName>
+                <default>false</default>
+                <label>12.5 X 80 - 18</label>
+            </value>
+            <value>
+                <fullName>12 X 5 X 8</fullName>
+                <default>false</default>
+                <label>12 X 5 X 8</label>
+            </value>
+            <value>
+                <fullName>12.5L - 15SL</fullName>
+                <default>false</default>
+                <label>12.5L - 15SL</label>
+            </value>
+            <value>
+                <fullName>13 1/2 X 5 X 8</fullName>
+                <default>false</default>
+                <label>13 1/2 X 5 X 8</label>
+            </value>
+            <value>
+                <fullName>13 X 5 1/2 X 8</fullName>
+                <default>false</default>
+                <label>13 X 5 1/2 X 8</label>
+            </value>
+            <value>
+                <fullName>140 X 55 - 9</fullName>
+                <default>false</default>
+                <label>140 X 55 - 9</label>
+            </value>
+            <value>
+                <fullName>14 X 17.50</fullName>
+                <default>false</default>
+                <label>14 X 17.50</label>
+            </value>
+            <value>
+                <fullName>14 X 17.5</fullName>
+                <default>false</default>
+                <label>14 X 17.5</label>
+            </value>
+            <value>
+                <fullName>14.00 X 20</fullName>
+                <default>false</default>
+                <label>14.00 X 20</label>
+            </value>
+            <value>
+                <fullName>14.00 X 24</fullName>
+                <default>false</default>
+                <label>14.00 X 24</label>
+            </value>
+            <value>
+                <fullName>14 X 4 1/2 X 8</fullName>
+                <default>false</default>
+                <label>14 X 4 1/2 X 8</label>
+            </value>
+            <value>
+                <fullName>15 X 19.5</fullName>
+                <default>false</default>
+                <label>15 X 19.5</label>
+            </value>
+            <value>
+                <fullName>15 X 4 1/2 - 8</fullName>
+                <default>false</default>
+                <label>15 X 4 1/2 - 8</label>
+            </value>
+            <value>
+                <fullName>15 X 5 X 11 1/4</fullName>
+                <default>false</default>
+                <label>15 X 5 X 11 1/4</label>
+            </value>
+            <value>
+                <fullName>16 1/4 X 5 X 11 1/4</fullName>
+                <default>false</default>
+                <label>16 1/4 X 5 X 11 1/4</label>
+            </value>
+            <value>
+                <fullName>16 1/4 X 6 X 11 1/4</fullName>
+                <default>false</default>
+                <label>16 1/4 X 6 X 11 1/4</label>
+            </value>
+            <value>
+                <fullName>16 1/4 X 7 X 11 1/4</fullName>
+                <default>false</default>
+                <label>16 1/4 X 7 X 11 1/4</label>
+            </value>
+            <value>
+                <fullName>16 X 5 X 10 1/2</fullName>
+                <default>false</default>
+                <label>16 X 5 X 10 1/2</label>
+            </value>
+            <value>
+                <fullName>165 X 13</fullName>
+                <default>false</default>
+                <label>165 X 13</label>
+            </value>
+            <value>
+                <fullName>16 X 6 X 10 1/2</fullName>
+                <default>false</default>
+                <label>16 X 6 X 10 1/2</label>
+            </value>
+            <value>
+                <fullName>16 X 6 - 8</fullName>
+                <default>false</default>
+                <label>16 X 6 - 8</label>
+            </value>
+            <value>
+                <fullName>16 X 7 X 10 1/2</fullName>
+                <default>false</default>
+                <label>16 X 7 X 10 1/2</label>
+            </value>
+            <value>
+                <fullName>18 X 6 X 12 1/8</fullName>
+                <default>false</default>
+                <label>18 X 6 X 12 1/8</label>
+            </value>
+            <value>
+                <fullName>18 X 7 X 12 1/8</fullName>
+                <default>false</default>
+                <label>18 X 7 X 12 1/8</label>
+            </value>
+            <value>
+                <fullName>18 X 7 - 8</fullName>
+                <default>false</default>
+                <label>18 X 7 - 8</label>
+            </value>
+            <value>
+                <fullName>18 X 8 X 12 1/8</fullName>
+                <default>false</default>
+                <label>18 X 8 X 12 1/8</label>
+            </value>
+            <value>
+                <fullName>18 X 8.50 - 10</fullName>
+                <default>false</default>
+                <label>18 X 8.50 - 10</label>
+            </value>
+            <value>
+                <fullName>18 X 9 X 12 1/8</fullName>
+                <default>false</default>
+                <label>18 X 9 X 12 1/8</label>
+            </value>
+            <value>
+                <fullName>200 X 50 - 10</fullName>
+                <default>false</default>
+                <label>200 X 50 - 10</label>
+            </value>
+            <value>
+                <fullName>20 X 6 X 16</fullName>
+                <default>false</default>
+                <label>20 X 6 X 16</label>
+            </value>
+            <value>
+                <fullName>21 X 7 X 15</fullName>
+                <default>false</default>
+                <label>21 X 7 X 15</label>
+            </value>
+            <value>
+                <fullName>21 X 8 X 15</fullName>
+                <default>false</default>
+                <label>21 X 8 X 15</label>
+            </value>
+            <value>
+                <fullName>21 X 8 - 9</fullName>
+                <default>false</default>
+                <label>21 X 8 - 9</label>
+            </value>
+            <value>
+                <fullName>22 X 10 X 16</fullName>
+                <default>false</default>
+                <label>22 X 10 X 16</label>
+            </value>
+            <value>
+                <fullName>22 X 12 X 16</fullName>
+                <default>false</default>
+                <label>22 X 12 X 16</label>
+            </value>
+            <value>
+                <fullName>22 X 14 X 16</fullName>
+                <default>false</default>
+                <label>22 X 14 X 16</label>
+            </value>
+            <value>
+                <fullName>22 X 16 X 16</fullName>
+                <default>false</default>
+                <label>22 X 16 X 16</label>
+            </value>
+            <value>
+                <fullName>22 X 8 X 16</fullName>
+                <default>false</default>
+                <label>22 X 8 X 16</label>
+            </value>
+            <value>
+                <fullName>23 X 10 - 12</fullName>
+                <default>false</default>
+                <label>23 X 10 - 12</label>
+            </value>
+            <value>
+                <fullName>27 X 10 - 12</fullName>
+                <default>false</default>
+                <label>27 X 10 - 12</label>
+            </value>
+            <value>
+                <fullName>23 X 5</fullName>
+                <default>false</default>
+                <label>23 X 5</label>
+            </value>
+            <value>
+                <fullName>23 X 8.5 - 12</fullName>
+                <default>false</default>
+                <label>23 X 8.5 - 12</label>
+            </value>
+            <value>
+                <fullName>23 X 8.50 - 12</fullName>
+                <default>false</default>
+                <label>23 X 8.50 - 12</label>
+            </value>
+            <value>
+                <fullName>23 X 9 - 10</fullName>
+                <default>false</default>
+                <label>23 X 9 - 10</label>
+            </value>
+            <value>
+                <fullName>24 X 12 - 12</fullName>
+                <default>false</default>
+                <label>24 X 12 - 12</label>
+            </value>
+            <value>
+                <fullName>2.50 X 15</fullName>
+                <default>false</default>
+                <label>2.50 X 15</label>
+            </value>
+            <value>
+                <fullName>250 X 15</fullName>
+                <default>false</default>
+                <label>250 X 15</label>
+            </value>
+            <value>
+                <fullName>2.50  X 15</fullName>
+                <default>false</default>
+                <label>2.50  X 15</label>
+            </value>
+            <value>
+                <fullName>27 X 8.50 - 15</fullName>
+                <default>false</default>
+                <label>27 X 8.50 - 15</label>
+            </value>
+            <value>
+                <fullName>25 X 8.50 - 14</fullName>
+                <default>false</default>
+                <label>25 X 8.50 - 14</label>
+            </value>
+            <value>
+                <fullName>26 X 12</fullName>
+                <default>false</default>
+                <label>26 X 12</label>
+            </value>
+            <value>
+                <fullName>27 X 10.50 - 15</fullName>
+                <default>false</default>
+                <label>27 X 10.50 - 15</label>
+            </value>
+            <value>
+                <fullName>28 X 12 X 22</fullName>
+                <default>false</default>
+                <label>28 X 12 X 22</label>
+            </value>
+            <value>
+                <fullName>28 X 12.5 - 15</fullName>
+                <default>false</default>
+                <label>28 X 12.5 - 15</label>
+            </value>
+            <value>
+                <fullName>28 X 16 X 22</fullName>
+                <default>false</default>
+                <label>28 X 16 X 22</label>
+            </value>
+            <value>
+                <fullName>3.00 X 15</fullName>
+                <default>false</default>
+                <label>3.00 X 15</label>
+            </value>
+            <value>
+                <fullName>3.00 - 15</fullName>
+                <default>false</default>
+                <label>3.00 - 15</label>
+            </value>
+            <value>
+                <fullName>31 X 10 - 20</fullName>
+                <default>false</default>
+                <label>31 X 10 - 20</label>
+            </value>
+            <value>
+                <fullName>315 X 45 - 12</fullName>
+                <default>false</default>
+                <label>315 X 45 - 12</label>
+            </value>
+            <value>
+                <fullName>33 X 12 - 20</fullName>
+                <default>false</default>
+                <label>33 X 12 - 20</label>
+            </value>
+            <value>
+                <fullName>3.00 X 4</fullName>
+                <default>false</default>
+                <label>3.00 X 4</label>
+            </value>
+            <value>
+                <fullName>355 X 50 - 20</fullName>
+                <default>false</default>
+                <label>355 X 50 - 20</label>
+            </value>
+            <value>
+                <fullName>355 X 65 -15</fullName>
+                <default>false</default>
+                <label>355 X 65 -15</label>
+            </value>
+            <value>
+                <fullName>4.00 X 60 - 50</fullName>
+                <default>false</default>
+                <label>4.00 X 60 - 50</label>
+            </value>
+            <value>
+                <fullName>40 X 16 X 30</fullName>
+                <default>false</default>
+                <label>40 X 16 X 30</label>
+            </value>
+            <value>
+                <fullName>405 X 130 X 305</fullName>
+                <default>false</default>
+                <label>405 X 130 X 305</label>
+            </value>
+            <value>
+                <fullName>405 X 260 X 305</fullName>
+                <default>false</default>
+                <label>405 X 260 X 305</label>
+            </value>
+            <value>
+                <fullName>425 X 150 X 305</fullName>
+                <default>false</default>
+                <label>425 X 150 X 305</label>
+            </value>
+            <value>
+                <fullName>425 X 260 X 305</fullName>
+                <default>false</default>
+                <label>425 X 260 X 305</label>
+            </value>
+            <value>
+                <fullName>425 X 300 X 305</fullName>
+                <default>false</default>
+                <label>425 X 300 X 305</label>
+            </value>
+            <value>
+                <fullName>4.00 X 4</fullName>
+                <default>false</default>
+                <label>4.00 X 4</label>
+            </value>
+            <value>
+                <fullName>450 X 130 X 320</fullName>
+                <default>false</default>
+                <label>450 X 130 X 320</label>
+            </value>
+            <value>
+                <fullName>450 X 160 X 320</fullName>
+                <default>false</default>
+                <label>450 X 160 X 320</label>
+            </value>
+            <value>
+                <fullName>450 X 300 X 305</fullName>
+                <default>false</default>
+                <label>450 X 300 X 305</label>
+            </value>
+            <value>
+                <fullName>4.00 X 8</fullName>
+                <default>false</default>
+                <label>4.00 X 8</label>
+            </value>
+            <value>
+                <fullName>575 X 100 X 15</fullName>
+                <default>false</default>
+                <label>575 X 100 X 15</label>
+            </value>
+            <value>
+                <fullName>580 X 69 X 30</fullName>
+                <default>false</default>
+                <label>580 X 69 X 30</label>
+            </value>
+            <value>
+                <fullName>5.00 X 8</fullName>
+                <default>false</default>
+                <label>5.00 X 8</label>
+            </value>
+            <value>
+                <fullName>5.00 - 8</fullName>
+                <default>false</default>
+                <label>5.00 - 8</label>
+            </value>
+            <value>
+                <fullName>6.00 - 9</fullName>
+                <default>false</default>
+                <label>6.00 - 9</label>
+            </value>
+            <value>
+                <fullName>6.00 X 9</fullName>
+                <default>false</default>
+                <label>6.00 X 9</label>
+            </value>
+            <value>
+                <fullName>6.00 X 15</fullName>
+                <default>false</default>
+                <label>6.00 X 15</label>
+            </value>
+            <value>
+                <fullName>645 X 200 X 480</fullName>
+                <default>false</default>
+                <label>645 X 200 X 480</label>
+            </value>
+            <value>
+                <fullName>645 X 250 X 410</fullName>
+                <default>false</default>
+                <label>645 X 250 X 410</label>
+            </value>
+            <value>
+                <fullName>645 X 350 X 410</fullName>
+                <default>false</default>
+                <label>645 X 350 X 410</label>
+            </value>
+            <value>
+                <fullName>6.50 X 10</fullName>
+                <default>false</default>
+                <label>6.50 X 10</label>
+            </value>
+            <value>
+                <fullName>6.50 - 10</fullName>
+                <default>false</default>
+                <label>6.50 - 10</label>
+            </value>
+            <value>
+                <fullName>660 X 250 X 480</fullName>
+                <default>false</default>
+                <label>660 X 250 X 480</label>
+            </value>
+            <value>
+                <fullName>68 - 112 - 5</fullName>
+                <default>false</default>
+                <label>68 - 112 - 5</label>
+            </value>
+            <value>
+                <fullName>7.00 / 7.50 - 16</fullName>
+                <default>false</default>
+                <label>7.00 / 7.50 - 16</label>
+            </value>
+            <value>
+                <fullName>7.00 - 15</fullName>
+                <default>false</default>
+                <label>7.00 - 15</label>
+            </value>
+            <value>
+                <fullName>7.00 - 12</fullName>
+                <default>false</default>
+                <label>7.00 - 12</label>
+            </value>
+            <value>
+                <fullName>7.00 X 12</fullName>
+                <default>false</default>
+                <label>7.00 X 12</label>
+            </value>
+            <value>
+                <fullName>7.00 X 15</fullName>
+                <default>false</default>
+                <label>7.00 X 15</label>
+            </value>
+            <value>
+                <fullName>7.50 X 10</fullName>
+                <default>false</default>
+                <label>7.50 X 10</label>
+            </value>
+            <value>
+                <fullName>7.50 X 15</fullName>
+                <default>false</default>
+                <label>7.50 X 15</label>
+            </value>
+            <value>
+                <fullName>7.50 X 16</fullName>
+                <default>false</default>
+                <label>7.50 X 16</label>
+            </value>
+            <value>
+                <fullName>7.00 - 16</fullName>
+                <default>false</default>
+                <label>7.00 - 16</label>
+            </value>
+            <value>
+                <fullName>758 X 90 X 27</fullName>
+                <default>false</default>
+                <label>758 X 90 X 27</label>
+            </value>
+            <value>
+                <fullName>790 X 110 X 55</fullName>
+                <default>false</default>
+                <label>790 X 110 X 55</label>
+            </value>
+            <value>
+                <fullName>798 X 125 X 27</fullName>
+                <default>false</default>
+                <label>798 X 125 X 27</label>
+            </value>
+            <value>
+                <fullName>800 X 108 X 21</fullName>
+                <default>false</default>
+                <label>800 X 108 X 21</label>
+            </value>
+            <value>
+                <fullName>800 X 120 X 20</fullName>
+                <default>false</default>
+                <label>800 X 120 X 20</label>
+            </value>
+            <value>
+                <fullName>8.15 X 15</fullName>
+                <default>false</default>
+                <label>8.15 X 15</label>
+            </value>
+            <value>
+                <fullName>8.15 - 15</fullName>
+                <default>false</default>
+                <label>8.15 - 15</label>
+            </value>
+            <value>
+                <fullName>8.00 X 16.5</fullName>
+                <default>false</default>
+                <label>8.00 X 16.5</label>
+            </value>
+            <value>
+                <fullName>8.25 X 15</fullName>
+                <default>false</default>
+                <label>8.25 X 15</label>
+            </value>
+            <value>
+                <fullName>8.25 - 15</fullName>
+                <default>false</default>
+                <label>8.25 - 15</label>
+            </value>
+            <value>
+                <fullName>8.25 X 20</fullName>
+                <default>false</default>
+                <label>8.25 X 20</label>
+            </value>
+            <value>
+                <fullName>8.75 X 16.5</fullName>
+                <default>false</default>
+                <label>8.75 X 16.5</label>
+            </value>
+            <value>
+                <fullName>9.00 X 20</fullName>
+                <default>false</default>
+                <label>9.00 X 20</label>
+            </value>
+            <value>
+                <fullName>9.5L - 15SL</fullName>
+                <default>false</default>
+                <label>9.5L - 15SL</label>
+            </value>
+            <value>
+                <fullName>3.75 - 8</fullName>
+                <default>false</default>
+                <label>3.75 - 8</label>
+            </value>
+            <value>
+                <fullName>3.00 - 8</fullName>
+                <default>false</default>
+                <label>3.00 - 8</label>
+            </value>
+            <value>
+                <fullName>4.00 X 9</fullName>
+                <default>false</default>
+                <label>4.00 X 9</label>
+            </value>
+            <value>
+                <fullName>6.90 X 9</fullName>
+                <default>false</default>
+                <label>6.90 X 9</label>
+            </value>
+            <value>
+                <fullName>28 X 9 - 15</fullName>
+                <default>false</default>
+                <label>28 X 9 - 15</label>
+            </value>
+            <value>
+                <fullName>9.00 X 16</fullName>
+                <default>false</default>
+                <label>9.00 X 16</label>
+            </value>
+            <value>
+                <fullName>15.5 X 4 - 8</fullName>
+                <default>false</default>
+                <label>15.5 X 4 - 8</label>
+            </value>
+            <value>
+                <fullName>15.5 X 5 - 8</fullName>
+                <default>false</default>
+                <label>15.5 X 5 - 8</label>
+            </value>
+            <value>
+                <fullName>21 X 6 - 9</fullName>
+                <default>false</default>
+                <label>21 X 6 - 9</label>
+            </value>
+            <value>
+                <fullName>4.00 X 9.75</fullName>
+                <default>false</default>
+                <label>4.00 X 9.75</label>
+            </value>
+            <value>
+                <fullName>645 X 250 X 480</fullName>
+                <default>false</default>
+                <label>645 X 250 X 480</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

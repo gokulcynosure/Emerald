@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Category__c</fullName>
+    <externalId>false</externalId>
+    <label>Sub Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Category__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>OEM-Forklift</fullName>
+                <default>false</default>
+                <label>OEM-Forklift</label>
+            </value>
+            <value>
+                <fullName>OEM-Skidsteer</fullName>
+                <default>false</default>
+                <label>OEM-Skidsteer</label>
+            </value>
+            <value>
+                <fullName>OEM-GSE</fullName>
+                <default>false</default>
+                <label>OEM-GSE</label>
+            </value>
+            <value>
+                <fullName>OEM-Port</fullName>
+                <default>false</default>
+                <label>OEM-Port</label>
+            </value>
+            <value>
+                <fullName>OEM-WH Equipment</fullName>
+                <default>false</default>
+                <label>OEM-WH Equipment</label>
+            </value>
+            <value>
+                <fullName>OEM-Agri Implement</fullName>
+                <default>false</default>
+                <label>OEM-Agri Implement</label>
+            </value>
+            <value>
+                <fullName>OEM-Back hoe-Telehandler</fullName>
+                <default>false</default>
+                <label>OEM-Back hoe-Telehandler</label>
+            </value>
+            <value>
+                <fullName>REPL-Corporate-Dom</fullName>
+                <default>false</default>
+                <label>REPL-Corporate-Dom</label>
+            </value>
+            <value>
+                <fullName>REPL-Corporate - MNC</fullName>
+                <default>false</default>
+                <label>REPL-Corporate - MNC</label>
+            </value>
+            <value>
+                <fullName>REPL -GEM</fullName>
+                <default>false</default>
+                <label>REPL -GEM</label>
+            </value>
+            <value>
+                <fullName>REPL-Forklift Hirer</fullName>
+                <default>false</default>
+                <label>REPL-Forklift Hirer</label>
+            </value>
+            <value>
+                <fullName>REPL-Forklift Spare parts Dealer</fullName>
+                <default>false</default>
+                <label>REPL-Forklift Spare parts Dealer</label>
+            </value>
+            <value>
+                <fullName>REPL-Forklift Service &amp; Maint</fullName>
+                <default>false</default>
+                <label>REPL-Forklift Service &amp; Maint</label>
+            </value>
+            <value>
+                <fullName>REPL- Forklift Tyre Dealer</fullName>
+                <default>false</default>
+                <label>REPL- Forklift Tyre Dealer</label>
+            </value>
+            <value>
+                <fullName>REPL- Tyre Dealer</fullName>
+                <default>false</default>
+                <label>REPL- Tyre Dealer</label>
+            </value>
+            <value>
+                <fullName>REPL-Agri Implement</fullName>
+                <default>false</default>
+                <label>REPL-Agri Implement</label>
+            </value>
+            <value>
+                <fullName>REPL-Skidsteer</fullName>
+                <default>false</default>
+                <label>REPL-Skidsteer</label>
+            </value>
+            <value>
+                <fullName>REPL-Back hoe-Telehandler</fullName>
+                <default>false</default>
+                <label>REPL-Back hoe-Telehandler</label>
+            </value>
+            <value>
+                <fullName>CP-EEFF</fullName>
+                <default>false</default>
+                <label>CP-EEFF</label>
+            </value>
+            <value>
+                <fullName>CP-Emerald Direct</fullName>
+                <default>false</default>
+                <label>CP-Emerald Direct</label>
+            </value>
+            <value>
+                <fullName>CP-BA</fullName>
+                <default>false</default>
+                <label>CP-BA</label>
+            </value>
+            <value>
+                <fullName>CP-BR</fullName>
+                <default>false</default>
+                <label>CP-BR</label>
+            </value>
+            <value>
+                <fullName>CP-BM</fullName>
+                <default>false</default>
+                <label>CP-BM</label>
+            </value>
+            <value>
+                <fullName>BWH</fullName>
+                <default>false</default>
+                <label>BWH</label>
+            </value>
+            <value>
+                <fullName>DWH</fullName>
+                <default>false</default>
+                <label>DWH</label>
+            </value>
+            <value>
+                <fullName>SAR</fullName>
+                <default>false</default>
+                <label>SAR</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>OEM</controllingFieldValue>
+            <valueName>OEM-Forklift</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OEM</controllingFieldValue>
+            <valueName>OEM-Skidsteer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OEM</controllingFieldValue>
+            <valueName>OEM-GSE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OEM</controllingFieldValue>
+            <valueName>OEM-Port</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OEM</controllingFieldValue>
+            <valueName>OEM-WH Equipment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OEM</controllingFieldValue>
+            <valueName>OEM-Agri Implement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OEM</controllingFieldValue>
+            <valueName>OEM-Back hoe-Telehandler</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REPL</controllingFieldValue>
+            <valueName>REPL-Corporate-Dom</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REPL</controllingFieldValue>
+            <valueName>REPL-Corporate - MNC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REPL</controllingFieldValue>
+            <valueName>REPL -GEM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REPL</controllingFieldValue>
+            <valueName>REPL-Forklift Hirer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REPL</controllingFieldValue>
+            <valueName>REPL-Forklift Spare parts Dealer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REPL</controllingFieldValue>
+            <valueName>REPL-Forklift Service &amp; Maint</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REPL</controllingFieldValue>
+            <valueName>REPL- Forklift Tyre Dealer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REPL</controllingFieldValue>
+            <valueName>REPL- Tyre Dealer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REPL</controllingFieldValue>
+            <valueName>REPL-Agri Implement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REPL</controllingFieldValue>
+            <valueName>REPL-Skidsteer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REPL</controllingFieldValue>
+            <valueName>REPL-Back hoe-Telehandler</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CP</controllingFieldValue>
+            <valueName>CP-EEFF</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CP</controllingFieldValue>
+            <valueName>CP-Emerald Direct</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CP</controllingFieldValue>
+            <valueName>CP-BA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CP</controllingFieldValue>
+            <valueName>CP-BR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CP</controllingFieldValue>
+            <valueName>CP-BM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOS</controllingFieldValue>
+            <valueName>BWH</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOS</controllingFieldValue>
+            <valueName>DWH</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOS</controllingFieldValue>
+            <valueName>SAR</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>58.0</apiVersion>
+    <environments>Default</environments>
+    <formulas>
+        <name>taxamountcalculation</name>
+        <dataType>Currency</dataType>
+        <expression>({!$Record.Quantity}* {!$Record.Total_Temp__c})* {!$Record.Tax_Code__r.Rate__c}/100</expression>
+        <scale>2</scale>
+    </formulas>
+    <interviewLabel>Order Product Process Flow {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Order Product Process Flow</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Update_Order_Product_Total_and_Tax</name>
+        <label>Update Order Product Total and Tax</label>
+        <locationX>176</locationX>
+        <locationY>323</locationY>
+        <inputAssignments>
+            <field>Basic_Unit_Rate__c</field>
+            <value>
+                <elementReference>$Record.Total_Temp__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Sales_Price_after_Discount__c</field>
+            <value>
+                <elementReference>$Record.Sales_Price_after_Discount_Temp__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Tax_Amount__c</field>
+            <value>
+                <elementReference>taxamountcalculation</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Total_Price_With_Discount__c</field>
+            <value>
+                <elementReference>$Record.Total_Temp__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Update_Order_Product_Total_and_Tax</targetReference>
+        </connector>
+        <object>OrderItem</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Account_Sharing_with_Mr_M_Ganesan</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Read</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>Edit</opportunityAccessLevel>
+        </accountSettings>
+        <label>Account Sharing with Mr.M.Ganesan</label>
+        <sharedTo>
+            <role>Zonal_Head_East_A_O_North_East</role>
+        </sharedTo>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <criteriaItems>
+            <field>Zone__c</field>
+            <operation>equals</operation>
+            <value>East B</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Zone__c</field>
+            <operation>equals</operation>
+            <value>East C</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Account_Sharing_with_Mr_P_V_Santhanam_Role</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Edit</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>Edit</opportunityAccessLevel>
+        </accountSettings>
+        <label>Account Sharing with Mr.P.V.Santhanam Role</label>
+        <sharedTo>
+            <group>Multiple_zones_user_sharing_rule_group</group>
+        </sharedTo>
+        <booleanFilter>1 OR 2 OR 3 OR 4</booleanFilter>
+        <criteriaItems>
+            <field>Zone__c</field>
+            <operation>equals</operation>
+            <value>South B</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Zone__c</field>
+            <operation>equals</operation>
+            <value>South C</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Zone__c</field>
+            <operation>equals</operation>
+            <value>North A</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Zone__c</field>
+            <operation>equals</operation>
+            <value>North B</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Account_Sharing_with_Regional_Executive_South_B</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Edit</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>Edit</opportunityAccessLevel>
+        </accountSettings>
+        <label>Account Sharing with Regional Executive (South B)</label>
+        <sharedTo>
+            <role>Regional_executive_South_B</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>Zone__c</field>
+            <operation>equals</operation>
+            <value>South B</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Account_Sharing_with_Regional_Executive_South_C</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Edit</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>Edit</opportunityAccessLevel>
+        </accountSettings>
+        <label>Account Sharing with Regional Executive (South C)</label>
+        <sharedTo>
+            <role>Regional_executive_South_C</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>Zone__c</field>
+            <operation>equals</operation>
+            <value>South C</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Account_Sharing_with_Ware_house_South_B_C_Hyderabad</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Edit</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>Edit</opportunityAccessLevel>
+        </accountSettings>
+        <label>Account Sharing with Ware house ( South B&amp;C) (Hyderabad)</label>
+        <sharedTo>
+            <role>Ware_house_South_B_C_Hyderabad</role>
+        </sharedTo>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <criteriaItems>
+            <field>Zone__c</field>
+            <operation>equals</operation>
+            <value>South B</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Zone__c</field>
+            <operation>equals</operation>
+            <value>South C</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Account_Sharing_with_Warehouse_East_A_B_and_C</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Edit</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>Edit</opportunityAccessLevel>
+        </accountSettings>
+        <label>Account Sharing with Warehouse(East A, B and C)</label>
+        <sharedTo>
+            <role>Warehouse_East_A_B_C_Jamshedpur</role>
+        </sharedTo>
+        <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+        <criteriaItems>
+            <field>Zone__c</field>
+            <operation>equals</operation>
+            <value>East A</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Zone__c</field>
+            <operation>equals</operation>
+            <value>North East</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Zone__c</field>
+            <operation>equals</operation>
+            <value>East O</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Zone__c</field>
+            <operation>equals</operation>
+            <value>East B</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Zone__c</field>
+            <operation>equals</operation>
+            <value>East C</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Account_Sharing_with_Warehouse_North_A</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Edit</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>Edit</opportunityAccessLevel>
+        </accountSettings>
+        <label>Account Sharing with Warehouse(North A)</label>
+        <sharedTo>
+            <roleAndSubordinates>Warehouse_North_A_Gurugram</roleAndSubordinates>
+        </sharedTo>
+        <booleanFilter>(1 AND 2) OR (3 AND 4) OR (5 AND 6) OR (7 AND 8)</booleanFilter>
+        <criteriaItems>
+            <field>Zone__c</field>
+            <operation>equals</operation>
+            <value>North A</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Billing_State__c</field>
+            <operation>equals</operation>
+            <value>Haryana</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Zone__c</field>
+            <operation>equals</operation>
+            <value>North A</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Billing_State__c</field>
+            <operation>equals</operation>
+            <value>Punjab</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Zone__c</field>
+            <operation>equals</operation>
+            <value>North A</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Billing_State__c</field>
+            <operation>equals</operation>
+            <value>Rajasthan</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Zone__c</field>
+            <operation>equals</operation>
+            <value>North A</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Billing_State__c</field>
+            <operation>equals</operation>
+            <value>Delhi</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Account_Sharing_with_Warehouse_North_B</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Edit</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>Edit</opportunityAccessLevel>
+        </accountSettings>
+        <label>Account Sharing with Warehouse(North B)</label>
+        <sharedTo>
+            <roleAndSubordinates>Warehouse_North_B_Noida</roleAndSubordinates>
+        </sharedTo>
+        <booleanFilter>(1 AND 2) OR (3 AND 4) OR (5 AND 6) OR (7 AND 8) OR (9 AND 10)</booleanFilter>
+        <criteriaItems>
+            <field>Zone__c</field>
+            <operation>equals</operation>
+            <value>North A</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Billing_State__c</field>
+            <operation>equals</operation>
+            <value>Jammu &amp; Kashmir</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Zone__c</field>
+            <operation>equals</operation>
+            <value>North B</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Billing_State__c</field>
+            <operation>equals</operation>
+            <value>Uttar Pradesh</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Zone__c</field>
+            <operation>equals</operation>
+            <value>North B</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Billing_State__c</field>
+            <operation>equals</operation>
+            <value>Uttarakhand</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Zone__c</field>
+            <operation>equals</operation>
+            <value>North A</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Billing_State__c</field>
+            <operation>equals</operation>
+            <value>Himachal Pradesh</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Zone__c</field>
+            <operation>equals</operation>
+            <value>North A</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Billing_State__c</field>
+            <operation>equals</operation>
+            <value>Ladakh</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Account_Sharing_with_Warehouse_West</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Edit</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>Edit</opportunityAccessLevel>
+        </accountSettings>
+        <label>Account Sharing with Warehouse (West)</label>
+        <sharedTo>
+            <role>Warehouse_West_Pune</role>
+        </sharedTo>
+        <booleanFilter>1 OR 2 OR 3</booleanFilter>
+        <criteriaItems>
+            <field>Zone__c</field>
+            <operation>equals</operation>
+            <value>West A</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Zone__c</field>
+            <operation>equals</operation>
+            <value>West B</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Zone__c</field>
+            <operation>equals</operation>
+            <value>Central</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Account_Sharing_with_Zonal_Head_East_B_and_C</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Edit</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>Edit</opportunityAccessLevel>
+        </accountSettings>
+        <label>Account Sharing with Zonal Head(East B and C)</label>
+        <sharedTo>
+            <roleAndSubordinates>Zonal_Head_East_B_C</roleAndSubordinates>
+        </sharedTo>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <criteriaItems>
+            <field>Zone__c</field>
+            <operation>equals</operation>
+            <value>East B</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Zone__c</field>
+            <operation>equals</operation>
+            <value>East C</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Account_Sharing_with_Zonal_Head_North_East_East_A_and_O</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Edit</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>Edit</opportunityAccessLevel>
+        </accountSettings>
+        <label>Account Sharing with Zonal Head(North East, East A and O)</label>
+        <sharedTo>
+            <roleAndSubordinates>Zonal_Head_East_A_O_North_East</roleAndSubordinates>
+        </sharedTo>
+        <booleanFilter>1 OR 2 OR 3</booleanFilter>
+        <criteriaItems>
+            <field>Zone__c</field>
+            <operation>equals</operation>
+            <value>East A</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Zone__c</field>
+            <operation>equals</operation>
+            <value>North East</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Zone__c</field>
+            <operation>equals</operation>
+            <value>East O</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Account_Sharing_with_Zonal_head_South_B_C</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Edit</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>Edit</opportunityAccessLevel>
+        </accountSettings>
+        <label>Account Sharing with Zonal head ( South B&amp;C)</label>
+        <sharedTo>
+            <role>Zonal_Head_South_B_C</role>
+        </sharedTo>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <criteriaItems>
+            <field>Zone__c</field>
+            <operation>equals</operation>
+            <value>South B</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Zone__c</field>
+            <operation>equals</operation>
+            <value>South C</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Account_Sharing_with_Zonal_head_West_A_and_subordinate</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Edit</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>Edit</opportunityAccessLevel>
+        </accountSettings>
+        <label>Account Sharing with Zonal head (West A) and subordinate</label>
+        <sharedTo>
+            <roleAndSubordinates>Zonal_Head_West_A</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Zone__c</field>
+            <operation>equals</operation>
+            <value>West A</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Account_Sharing_with_Zonal_head_West_B_Central_and_subordinate</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Edit</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>Edit</opportunityAccessLevel>
+        </accountSettings>
+        <label>Account Sharing with Zonal head (West B, Central) and subordinate</label>
+        <sharedTo>
+            <roleAndSubordinates>Zonal_Head_West_B_Central</roleAndSubordinates>
+        </sharedTo>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <criteriaItems>
+            <field>Zone__c</field>
+            <operation>equals</operation>
+            <value>West B</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Zone__c</field>
+            <operation>equals</operation>
+            <value>Central</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Warehouse_SouthA_Chennai_with_subordinates</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Edit</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>Edit</opportunityAccessLevel>
+        </accountSettings>
+        <label>Warehouse (SouthA) (Chennai) with subordinates</label>
+        <sharedTo>
+            <roleAndSubordinates>Warehouse_SouthA_Chennai</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Zone__c</field>
+            <operation>equals</operation>
+            <value>South A</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+</SharingRules>

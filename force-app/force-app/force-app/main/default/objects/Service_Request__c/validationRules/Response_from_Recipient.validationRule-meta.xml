@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Response_from_Recipient</fullName>
+    <active>true</active>
+    <description>Only the Recipient User can edit this Response from Recipient Field</description>
+    <errorConditionFormula>AND(NOT(OR ($User.Username = &apos;ajith.kumar@emerald.salesagent&apos; , $Profile.Name = &apos;System Administrator&apos;) ),ISCHANGED( Response_from_Recipient__c  ))</errorConditionFormula>
+    <errorMessage>Only the Recipient User can edit this Response From Recipient.</errorMessage>
+</ValidationRule>

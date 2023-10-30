@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Remarks_If_any_field_edit</fullName>
+    <active>true</active>
+    <description>Only the Recipient User Can Edit this Remarks field</description>
+    <errorConditionFormula>AND(NOT(OR ($User.Username = &apos;ajith.kumar@emerald.salesagent&apos; , $Profile.Name = &apos;System Administrator&apos;) ),ISCHANGED(Remarks_if_any__c ))</errorConditionFormula>
+    <errorMessage>Only the Recipient user can edit this Remarks Field</errorMessage>
+</ValidationRule>

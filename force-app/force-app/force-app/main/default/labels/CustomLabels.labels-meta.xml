@@ -1,0 +1,959 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>ACCEPTED</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ACCEPTED</shortDescription>
+        <value>&quot;ACCEPTED&quot;</value>
+    </labels>
+    <labels>
+        <fullName>AccNoLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AccNoLabel</shortDescription>
+        <value>A/c No</value>
+    </labels>
+    <labels>
+        <fullName>AddressLine1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AddressLine1</shortDescription>
+        <value>Plot No.79, Export Promotional Industrial Park, Sipcot Industrial</value>
+    </labels>
+    <labels>
+        <fullName>AddressLine2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AddressLine2</shortDescription>
+        <value>Complex, Gummidipoondi - 601201, Thiruvallur District, Tamil Nadu.</value>
+    </labels>
+    <labels>
+        <fullName>AddressLine3</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AddressLine3</shortDescription>
+        <value>PAN - AAACE9718N, GSTIN No: 33AAACE9718N1ZB</value>
+    </labels>
+    <labels>
+        <fullName>AddressLine4</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AddressLine4</shortDescription>
+        <value>GSTIN Type: Regular/TDS/ISD, GST State Code - Tamil Nadu - 33</value>
+    </labels>
+    <labels>
+        <fullName>AddressLine5</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AddressLine5</shortDescription>
+        <value>Corporate Id No - U25111TN2002PTC048665</value>
+    </labels>
+    <labels>
+        <fullName>Amount_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Amount Label</shortDescription>
+        <value>Amount</value>
+    </labels>
+    <labels>
+        <fullName>Authorized_Signatory_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Authorized Signatory Label</shortDescription>
+        <value>Authorized Signatory</value>
+    </labels>
+    <labels>
+        <fullName>BRAND</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BRAND</shortDescription>
+        <value>BRAND</value>
+    </labels>
+    <labels>
+        <fullName>BankNameLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BankNameLabel</shortDescription>
+        <value>Bank Name</value>
+    </labels>
+    <labels>
+        <fullName>BankingDetailsLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BankingDetailsLabel</shortDescription>
+        <value>Our Banking Details</value>
+    </labels>
+    <labels>
+        <fullName>Basic_Unit_Rate</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Basic Unit Rate</shortDescription>
+        <value>Basic Unit Rate</value>
+    </labels>
+    <labels>
+        <fullName>BillToLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BillToLabel</shortDescription>
+        <value>BILL TO</value>
+    </labels>
+    <labels>
+        <fullName>BranchLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BranchLabel</shortDescription>
+        <value>Branch</value>
+    </labels>
+    <labels>
+        <fullName>CBM</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CBM</shortDescription>
+        <value>CBM</value>
+    </labels>
+    <labels>
+        <fullName>CEO_JMD</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CEO  JMD</shortDescription>
+        <value>CEO  JMD</value>
+    </labels>
+    <labels>
+        <fullName>CGST_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CGST Label</shortDescription>
+        <value>CGST</value>
+    </labels>
+    <labels>
+        <fullName>CIN</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CIN</shortDescription>
+        <value>CIN</value>
+    </labels>
+    <labels>
+        <fullName>COMMISIONERATE</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>COMMISIONERATE</shortDescription>
+        <value>COMMISIONERATE</value>
+    </labels>
+    <labels>
+        <fullName>CP_Base_Price_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CP Base Price Label</shortDescription>
+        <value>CP Base Price</value>
+    </labels>
+    <labels>
+        <fullName>CompanyAddressLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CompanyAddressLabel</shortDescription>
+        <value>Plot No.79, Export Promotional Industrial Park, Sipcot Industrial
+Complex, Gummidipoondi - 601201, Thiruvallur District, Tamil Nadu.
+PAN - AAACE9718N, GSTIN No: 33AAACE9718N1ZB
+GSTIN Type: Regular/TDS/ISD, GST State Code - Tamil Nadu - 33
+Corporate Id No - U25111TN2002PTC048665</value>
+    </labels>
+    <labels>
+        <fullName>CompanyNameLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CompanyNameLabel</shortDescription>
+        <value>EMERALD RESILIENT TYRE MANUFACTURERS PRIVATE LIMITED</value>
+    </labels>
+    <labels>
+        <fullName>Consignment_Weight_in_Kgs_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Consignment Weight in Kgs Label</shortDescription>
+        <value>Consignment Weight in Kgs</value>
+    </labels>
+    <labels>
+        <fullName>CustomerContactDetailsContactNoLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomerContactDetailsContactNoLabel</shortDescription>
+        <value>Contact No</value>
+    </labels>
+    <labels>
+        <fullName>CustomerContactDetailsEmailLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomerContactDetailsEmailLabel</shortDescription>
+        <value>Mail Id</value>
+    </labels>
+    <labels>
+        <fullName>CustomerContactDetailsLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomerContactDetailsLabel</shortDescription>
+        <value>Customer Contact Details</value>
+    </labels>
+    <labels>
+        <fullName>CustomerContactDetailsNameLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomerContactDetailsNameLabel</shortDescription>
+        <value>Name</value>
+    </labels>
+    <labels>
+        <fullName>Customer_Enquiry_Date_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer Enquiry Date Label</shortDescription>
+        <value>Customer Enquiry Date</value>
+    </labels>
+    <labels>
+        <fullName>Customer_Enquiry_Number</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer Enquiry Number</shortDescription>
+        <value>Customer Enquiry Number</value>
+    </labels>
+    <labels>
+        <fullName>Customer_PO_Reference_No</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer PO Reference No</shortDescription>
+        <value>Customer PO Reference No</value>
+    </labels>
+    <labels>
+        <fullName>Customer_Seal_and_Signature_label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer Seal and Signature label</shortDescription>
+        <value>Customer seal &amp; Signature</value>
+    </labels>
+    <labels>
+        <fullName>Customer_Signature_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer Signature Label</shortDescription>
+        <value>For, Customer Acceptance:</value>
+    </labels>
+    <labels>
+        <fullName>DESCRIPTION_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DESCRIPTION</shortDescription>
+        <value>DESCRIPTION</value>
+    </labels>
+    <labels>
+        <fullName>DIVISION</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DIVISION</shortDescription>
+        <value>DIVISION</value>
+    </labels>
+    <labels>
+        <fullName>Delivery_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Delivery Label</shortDescription>
+        <value>Delivery</value>
+    </labels>
+    <labels>
+        <fullName>Delivery_Schedule_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Delivery Schedule Label</shortDescription>
+        <value>Delivery Schedule</value>
+    </labels>
+    <labels>
+        <fullName>Department_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Department Label</shortDescription>
+        <value>Department</value>
+    </labels>
+    <labels>
+        <fullName>Description</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Description</shortDescription>
+        <value>Description</value>
+    </labels>
+    <labels>
+        <fullName>Designation_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Designation Label</shortDescription>
+        <value>Designation</value>
+    </labels>
+    <labels>
+        <fullName>Discount_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Discount Label</shortDescription>
+        <value>Discount</value>
+    </labels>
+    <labels>
+        <fullName>Door_Godown_Delivery_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Door/Godown Delivery Label</shortDescription>
+        <value>Door/Godown Delivery</value>
+    </labels>
+    <labels>
+        <fullName>EM_AddressLine1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>EM_AddressLine1</shortDescription>
+        <value>Plot No.79, Export Promotional Industrial Park, Sipcot Industrial</value>
+    </labels>
+    <labels>
+        <fullName>EM_AddressLine2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>EM_AddressLine2</shortDescription>
+        <value>Complex, Gummidipoondi - 601201, Thiruvallur District, Tamil Nadu.</value>
+    </labels>
+    <labels>
+        <fullName>EM_AddressLine3</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>EM_AddressLine3</shortDescription>
+        <value>PAN - AAACE9718N, GSTIN No: 33AAACE9718N1ZB</value>
+    </labels>
+    <labels>
+        <fullName>EM_AddressLine4</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>EM_AddressLine4</shortDescription>
+        <value>GSTIN Type: Regular/TDS/ISD, GST State Code - Tamil Nadu - 33</value>
+    </labels>
+    <labels>
+        <fullName>EM_AddressLine5</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>EM_AddressLine5</shortDescription>
+        <value>Corporate Id No - U25111TN2002PTC048665</value>
+    </labels>
+    <labels>
+        <fullName>EXCISE_CONTROL_CODE</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>EXCISE CONTROL CODE</shortDescription>
+        <value>EXCISE CONTROL CODE</value>
+    </labels>
+    <labels>
+        <fullName>Email</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Email</shortDescription>
+        <value>Email</value>
+    </labels>
+    <labels>
+        <fullName>Emerald_Executive</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Emerald Executive</shortDescription>
+        <value>V.KRISHNARAM</value>
+    </labels>
+    <labels>
+        <fullName>Emerald_Info</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Emerald Info</shortDescription>
+        <value>FOR EMERALD RESILIENT TYRE MFRS PVT LTD</value>
+    </labels>
+    <labels>
+        <fullName>Emerald_Signature_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Emerald Signature Label</shortDescription>
+        <value>For, EMERALD RESILIENT TYRE MFRS. PVT. LTD.</value>
+    </labels>
+    <labels>
+        <fullName>Feedback_Survey_Email_Template</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Feedback Survey Email Template</shortDescription>
+        <value>Customer Feedback Survey Link Template</value>
+    </labels>
+    <labels>
+        <fullName>Fitment_Charges_INR_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Fitment Charges INR Label</shortDescription>
+        <value>Fitment Charges INR</value>
+    </labels>
+    <labels>
+        <fullName>For_queries_contact</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>For queries contact</shortDescription>
+        <value>For any queries please contact</value>
+    </labels>
+    <labels>
+        <fullName>Freight_INR_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Freight INR Label</shortDescription>
+        <value>Freight INR</value>
+    </labels>
+    <labels>
+        <fullName>Freight_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Freight Label</shortDescription>
+        <value>Freight</value>
+    </labels>
+    <labels>
+        <fullName>GSTIN_No_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GSTIN No Label</shortDescription>
+        <value>GSTIN No</value>
+    </labels>
+    <labels>
+        <fullName>GST_Type_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GST Type Label</shortDescription>
+        <value>GST Type</value>
+    </labels>
+    <labels>
+        <fullName>HSN_SAC_code_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HSN/SAC code Label</shortDescription>
+        <value>HSN/SAC code</value>
+    </labels>
+    <labels>
+        <fullName>HS_CODE</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HS CODE</shortDescription>
+        <value>HS CODE</value>
+    </labels>
+    <labels>
+        <fullName>IEC_NO</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IEC NO</shortDescription>
+        <value>IEC NO</value>
+    </labels>
+    <labels>
+        <fullName>IFSCLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IFSCLabel</shortDescription>
+        <value>IFSC Code</value>
+    </labels>
+    <labels>
+        <fullName>IGST_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IGST Label</shortDescription>
+        <value>IGST</value>
+    </labels>
+    <labels>
+        <fullName>ISO_Document_Ref_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ISO Document Ref Label</shortDescription>
+        <value>ISO Document Ref.</value>
+    </labels>
+    <labels>
+        <fullName>ISO_Document_Ref_Value</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ISO Document Ref Value</shortDescription>
+        <value>FT/MKT/10</value>
+    </labels>
+    <labels>
+        <fullName>Insurance_label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Insurance label</shortDescription>
+        <value>Insurance</value>
+    </labels>
+    <labels>
+        <fullName>Issue_Date_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Issue/Date Label</shortDescription>
+        <value>Issue/Date:</value>
+    </labels>
+    <labels>
+        <fullName>Issue_Date_Value</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Issue Date Value</shortDescription>
+        <value>01 / 07-12-2008</value>
+    </labels>
+    <labels>
+        <fullName>Jurisdiction_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Jurisdiction Label</shortDescription>
+        <value>SUBJECT TO CHENNAI JURISDICTION</value>
+    </labels>
+    <labels>
+        <fullName>Mode_Of_Transportation_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Mode Of Transportation Label</shortDescription>
+        <value>Mode of Transportation</value>
+    </labels>
+    <labels>
+        <fullName>Order_Date_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SO_Date_Label</shortDescription>
+        <value>Proforma Invoice date</value>
+    </labels>
+    <labels>
+        <fullName>Others_INR_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Others  INR Label</shortDescription>
+        <value>Others(if any) INR</value>
+    </labels>
+    <labels>
+        <fullName>PAN_No_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PAN No Label</shortDescription>
+        <value>PAN No</value>
+    </labels>
+    <labels>
+        <fullName>PATTERN_CODE</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PATTERN CODE</shortDescription>
+        <value>PATTERN CODE</value>
+    </labels>
+    <labels>
+        <fullName>PO_Date_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PO_Date_Label</shortDescription>
+        <value>PO date</value>
+    </labels>
+    <labels>
+        <fullName>PPD_Discount_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PPD Discount Label</shortDescription>
+        <value>PPD Discount</value>
+    </labels>
+    <labels>
+        <fullName>PRICE</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PRICE</shortDescription>
+        <value>PRICE</value>
+    </labels>
+    <labels>
+        <fullName>PRODUCT_CODE</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PRODUCT CODE</shortDescription>
+        <value>PRODUCT CODE</value>
+    </labels>
+    <labels>
+        <fullName>Payment_Terms_Mode</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Payment Terms/Mode</shortDescription>
+        <value>Payment Terms</value>
+    </labels>
+    <labels>
+        <fullName>Phone</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Phone</shortDescription>
+        <value>Phone</value>
+    </labels>
+    <labels>
+        <fullName>Place_of_Supply</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Place of Supply</shortDescription>
+        <value>Place of Supply</value>
+    </labels>
+    <labels>
+        <fullName>Policy1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Policy 1</shortDescription>
+        <value>1.  Partial shipment and transshipment should be permitted.</value>
+    </labels>
+    <labels>
+        <fullName>Policy2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Policy2</shortDescription>
+        <value>2.  All bank charges outside India are to Buyers Account.</value>
+    </labels>
+    <labels>
+        <fullName>Policy3</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Policy3</shortDescription>
+        <value>3.  Arbitration of all disputes are subject to Indi an Jurisdiction.</value>
+    </labels>
+    <labels>
+        <fullName>Policy4</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Policy4</shortDescription>
+        <value>4.  Force Majeure: The Seller shall not be held responsible for any delay or non deliveny of goods due to force majeure.</value>
+    </labels>
+    <labels>
+        <fullName>Policy5</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Policy5</shortDescription>
+        <value>5.  Sign this Proforma Invoice and send the same to us duly acknowledged</value>
+    </labels>
+    <labels>
+        <fullName>Port_Of_Discharge</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Port Of Discharge</shortDescription>
+        <value>Port Of Discharge</value>
+    </labels>
+    <labels>
+        <fullName>Product_Description_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product Description Label</shortDescription>
+        <value>Product Description</value>
+    </labels>
+    <labels>
+        <fullName>QLI_Discount</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>QLI Discount Label</shortDescription>
+        <value>Discount%</value>
+    </labels>
+    <labels>
+        <fullName>QTY</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>QTY</shortDescription>
+        <value>QTY</value>
+    </labels>
+    <labels>
+        <fullName>Quantity_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Quantity Label</shortDescription>
+        <value>Qty</value>
+    </labels>
+    <labels>
+        <fullName>QuoteNumber</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>QuoteNumber</shortDescription>
+        <value>Quote Number</value>
+    </labels>
+    <labels>
+        <fullName>Quote_Date_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Quote Date Label</shortDescription>
+        <value>Quote Date</value>
+    </labels>
+    <labels>
+        <fullName>RANGE_ADDRESS</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RANGE ADDRESS</shortDescription>
+        <value>RANGE ADDRESS</value>
+    </labels>
+    <labels>
+        <fullName>Rate_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Rate Label</shortDescription>
+        <value>Rate%</value>
+    </labels>
+    <labels>
+        <fullName>Remarks_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Remarks Label</shortDescription>
+        <value>Remarks</value>
+    </labels>
+    <labels>
+        <fullName>Revision_Date_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Revision Date Label</shortDescription>
+        <value>Revision Date:</value>
+    </labels>
+    <labels>
+        <fullName>Revision_Date_Value</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Revision Date Value</shortDescription>
+        <value>02/ 03-08-2022</value>
+    </labels>
+    <labels>
+        <fullName>Rounding</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Rounding</shortDescription>
+        <value>Rounding</value>
+    </labels>
+    <labels>
+        <fullName>SEAL_AND_SIGNATURE_OF_BUYER</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SEAL AND SIGNATURE OF BUYER</shortDescription>
+        <value>SEAL AND SIGNATURE OF BUYER</value>
+    </labels>
+    <labels>
+        <fullName>SGST_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SGST Label</shortDescription>
+        <value>SGST</value>
+    </labels>
+    <labels>
+        <fullName>SIZE</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SIZE</shortDescription>
+        <value>SIZE</value>
+    </labels>
+    <labels>
+        <fullName>SPL_Discount_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SPL Discount Label</shortDescription>
+        <value>SPL Discount</value>
+    </labels>
+    <labels>
+        <fullName>SWIFTLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SWIFTLabel</shortDescription>
+        <value>SWIFT Code</value>
+    </labels>
+    <labels>
+        <fullName>SalesOrderText</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SalesOrderText</shortDescription>
+        <value>PROFORMA INVOICE</value>
+    </labels>
+    <labels>
+        <fullName>Sales_Order_Number</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Sales Order Number</shortDescription>
+        <value>Proforma Invoice No</value>
+    </labels>
+    <labels>
+        <fullName>Sales_Price_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Sales Price Label</shortDescription>
+        <value>Sales Price</value>
+    </labels>
+    <labels>
+        <fullName>SalesquotationText</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SalesquotationText</shortDescription>
+        <value>SALES QUOTATION</value>
+    </labels>
+    <labels>
+        <fullName>Save_and_Email_Order_Aura_Button</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Save and Email Order Aura Button</shortDescription>
+        <value>Save and Email Order</value>
+    </labels>
+    <labels>
+        <fullName>Save_and_Email_Quote_Aura_Button</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Save and Email Quote Aura Button</shortDescription>
+        <value>Save and Email Quote</value>
+    </labels>
+    <labels>
+        <fullName>Save_to_Order_Aura_Button</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Save to Order Aura Button</shortDescription>
+        <value>Save to Order</value>
+    </labels>
+    <labels>
+        <fullName>Save_to_Quote_Aura_Button</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Save to Quote Aura Button</shortDescription>
+        <value>Save to Quote</value>
+    </labels>
+    <labels>
+        <fullName>ShipToLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ShipToLabel</shortDescription>
+        <value>SHIP TO</value>
+    </labels>
+    <labels>
+        <fullName>Sl_No</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Sl No</shortDescription>
+        <value>Sl.No</value>
+    </labels>
+    <labels>
+        <fullName>Sl_No_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Sl No Label</shortDescription>
+        <value>Sl No</value>
+    </labels>
+    <labels>
+        <fullName>Special_Discount_Details</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Special Discount Details</shortDescription>
+        <value>Special Discount Details</value>
+    </labels>
+    <labels>
+        <fullName>Special_Discounts_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Special Discounts Label</shortDescription>
+        <value>Special Discounts</value>
+    </labels>
+    <labels>
+        <fullName>State_Code_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>State Code Label</shortDescription>
+        <value>State / Code</value>
+    </labels>
+    <labels>
+        <fullName>TOTAL_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TOTAL Label</shortDescription>
+        <value>TOTAL</value>
+    </labels>
+    <labels>
+        <fullName>TYPE</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TYPE</shortDescription>
+        <value>TYPE</value>
+    </labels>
+    <labels>
+        <fullName>Tax_Value_IGST_In_Words_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Tax_Value_IGST_In_Words_Label :</shortDescription>
+        <value>Tax Value (In Words) :</value>
+    </labels>
+    <labels>
+        <fullName>Taxable_Value_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Taxable Value Label</shortDescription>
+        <value>Taxable Value</value>
+    </labels>
+    <labels>
+        <fullName>Total</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Total</shortDescription>
+        <value>Total</value>
+    </labels>
+    <labels>
+        <fullName>Total_INR_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Total INR Label</shortDescription>
+        <value>Total</value>
+    </labels>
+    <labels>
+        <fullName>Total_Value_In_Words</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Total Value (In Words)</shortDescription>
+        <value>Total Value (In Words)</value>
+    </labels>
+    <labels>
+        <fullName>Transporter_Name_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Transporter Name Label</shortDescription>
+        <value>Transporter Name</value>
+    </labels>
+    <labels>
+        <fullName>UNIT</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>UNIT</shortDescription>
+        <value>UNIT</value>
+    </labels>
+    <labels>
+        <fullName>UNLOADING_CHARGES</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>UNLOADING CHARGES</shortDescription>
+        <value>UNLOADING CHARGES</value>
+    </labels>
+    <labels>
+        <fullName>UOM_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>UOM Label</shortDescription>
+        <value>UOM</value>
+    </labels>
+    <labels>
+        <fullName>Unit_Of_Measure_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Unit Of Measure Label</shortDescription>
+        <value>UOM</value>
+    </labels>
+    <labels>
+        <fullName>Unit_Price_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Unit Price Label</shortDescription>
+        <value>Unit Price</value>
+    </labels>
+    <labels>
+        <fullName>VD_Discount_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VD Discount Label</shortDescription>
+        <value>VD Discount</value>
+    </labels>
+    <labels>
+        <fullName>Validity_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Validity Label</shortDescription>
+        <value>Validity</value>
+    </labels>
+    <labels>
+        <fullName>WEIGHT</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WEIGHT</shortDescription>
+        <value>WEIGHT</value>
+    </labels>
+    <labels>
+        <fullName>WebsiteLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WebsiteLabel</shortDescription>
+        <value>For further info, visit - Website: emeraldtyres.com</value>
+    </labels>
+</CustomLabels>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Executive_Performance_Appraisal</fullName>
+    <columns>NAME</columns>
+    <columns>Executive__c</columns>
+    <columns>Sales_Target_in_lacs__c</columns>
+    <columns>Sales_Achievement_in_lacs__c</columns>
+    <columns>CTC_in_local_currency__c</columns>
+    <filterScope>Mine</filterScope>
+    <label>My Executive Performance Appraisal</label>
+</ListView>

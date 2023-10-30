@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>58.0</apiVersion>
+    <assignments>
+        <name>Assign_Zone</name>
+        <label>Assign Zone</label>
+        <locationX>314</locationX>
+        <locationY>503</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Zone_No__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>ZoneFormatNewRecord</elementReference>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <name>Assign_Zone_Value</name>
+        <label>Assign Zone Value</label>
+        <locationX>50</locationX>
+        <locationY>503</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Zone_No__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>LeadzoneFormat</elementReference>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <decisions>
+        <name>Check_Size</name>
+        <label>Check Size</label>
+        <locationX>182</locationX>
+        <locationY>395</locationY>
+        <defaultConnector>
+            <targetReference>Assign_Zone</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>If New Record</defaultConnectorLabel>
+        <rules>
+            <name>If_List_Has_Previous_Records</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Previous_Lead_Records</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_Zone_Value</targetReference>
+            </connector>
+            <label>If List Has Previous Records</label>
+        </rules>
+    </decisions>
+    <environments>Default</environments>
+    <formulas>
+        <name>LeadzoneFormat</name>
+        <dataType>String</dataType>
+        <expression>&quot;L-EM-&quot; + {!ZoneCode} +&quot;-&quot;+ LPAD(TEXT({!ZonePreviousNo} + 1), 5, &apos;0&apos;)</expression>
+    </formulas>
+    <formulas>
+        <name>PreviousNo</name>
+        <dataType>Number</dataType>
+        <expression>VALUE(RIGHT({!Get_Previous_Lead_Records.Zone_No__c}, 5))</expression>
+        <scale>2</scale>
+    </formulas>
+    <formulas>
+        <name>ZoneCode</name>
+        <dataType>String</dataType>
+        <expression>UPPER(LEFT({!ZoneValue}, 1)) &amp; IF(
+    FIND(&quot; &quot;, {!ZoneValue}) &gt; 0,
+    UPPER(MID({!ZoneValue}, FIND(&quot; &quot;, {!ZoneValue}) + 1, 1)),
+    &quot;&quot;
+)</expression>
+    </formulas>
+    <formulas>
+        <name>ZoneFormatNewRecord</name>
+        <dataType>String</dataType>
+        <expression>&quot;L-EM-&quot; + {!ZoneCode} + &quot;-00001&quot;</expression>
+    </formulas>
+    <formulas>
+        <name>ZoneNo</name>
+        <dataType>String</dataType>
+        <expression>RIGHT({!Get_Previous_Lead_Records.Zone_No__c}, LEN({!Get_Previous_Lead_Records.Zone_No__c}) - FIND(&quot;-&quot;, {!Get_Previous_Lead_Records.Zone_No__c}) - 1)</expression>
+    </formulas>
+    <formulas>
+        <name>ZonePreviousNo</name>
+        <dataType>Number</dataType>
+        <expression>VALUE(RIGHT({!Get_Previous_Lead_Records.Zone_No__c}, 5))</expression>
+        <scale>2</scale>
+    </formulas>
+    <formulas>
+        <name>ZonetNoInt</name>
+        <dataType>Number</dataType>
+        <expression>Value({!ZoneNo})</expression>
+        <scale>2</scale>
+    </formulas>
+    <interviewLabel>Lead Zone Process {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Lead Zone Process</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Get_Previous_Lead_Records</name>
+        <label>Get Previous Lead Records</label>
+        <locationX>182</locationX>
+        <locationY>287</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Check_Size</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Zone__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Zone__c</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>Zone_No__c</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Lead</object>
+        <sortField>CreatedDate</sortField>
+        <sortOrder>Desc</sortOrder>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <start>
+        <locationX>56</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Get_Previous_Lead_Records</targetReference>
+        </connector>
+        <object>Lead</object>
+        <recordTriggerType>Create</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>zoneNumber</name>
+        <dataType>Number</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <scale>2</scale>
+        <value>
+            <elementReference>ZonetNoInt</elementReference>
+        </value>
+    </variables>
+    <variables>
+        <name>ZoneValue</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <value>
+            <elementReference>$Record.Zone__c</elementReference>
+        </value>
+    </variables>
+</Flow>

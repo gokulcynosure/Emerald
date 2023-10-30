@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Subject__c</fullName>
+    <externalId>false</externalId>
+    <label>Subject</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Enquiry related</fullName>
+                <default>false</default>
+                <label>Enquiry related</label>
+            </value>
+            <value>
+                <fullName>Quote review</fullName>
+                <default>false</default>
+                <label>Quote review</label>
+            </value>
+            <value>
+                <fullName>PO related</fullName>
+                <default>false</default>
+                <label>PO related</label>
+            </value>
+            <value>
+                <fullName>Credit related</fullName>
+                <default>false</default>
+                <label>Credit related</label>
+            </value>
+            <value>
+                <fullName>Collection follow up</fullName>
+                <default>false</default>
+                <label>Collection follow up</label>
+            </value>
+            <value>
+                <fullName>Product Complaint</fullName>
+                <default>false</default>
+                <label>Product Complaint</label>
+            </value>
+            <value>
+                <fullName>Service Complaint</fullName>
+                <default>false</default>
+                <label>Service Complaint</label>
+            </value>
+            <value>
+                <fullName>Market info</fullName>
+                <default>false</default>
+                <label>Market info</label>
+            </value>
+            <value>
+                <fullName>Competition Info</fullName>
+                <default>false</default>
+                <label>Competition Info</label>
+            </value>
+            <value>
+                <fullName>Industry related</fullName>
+                <default>false</default>
+                <label>Industry related</label>
+            </value>
+            <value>
+                <fullName>Group related</fullName>
+                <default>false</default>
+                <label>Group related</label>
+            </value>
+            <value>
+                <fullName>Customer data base</fullName>
+                <default>false</default>
+                <label>Customer data base</label>
+            </value>
+            <value>
+                <fullName>Competitors presence</fullName>
+                <default>false</default>
+                <label>Competitors presence</label>
+            </value>
+            <value>
+                <fullName>Continual Improvement</fullName>
+                <default>false</default>
+                <label>Continual Improvement</label>
+            </value>
+            <value>
+                <fullName>Trail tyre review</fullName>
+                <default>false</default>
+                <label>Trail tyre review</label>
+            </value>
+            <value>
+                <fullName>New product development</fullName>
+                <default>false</default>
+                <label>New product development</label>
+            </value>
+            <value>
+                <fullName>Next Purchase Plan - Month-Qty-Value</fullName>
+                <default>false</default>
+                <label>Next Purchase Plan - Month-Qty-Value</label>
+            </value>
+            <value>
+                <fullName>CFB - Product</fullName>
+                <default>false</default>
+                <label>CFB - Product</label>
+            </value>
+            <value>
+                <fullName>CFB - Service</fullName>
+                <default>false</default>
+                <label>CFB - Service</label>
+            </value>
+            <value>
+                <fullName>Approval note</fullName>
+                <default>false</default>
+                <label>Approval note</label>
+            </value>
+            <value>
+                <fullName>Other info (Pl specify)</fullName>
+                <default>false</default>
+                <label>Other info (Pl specify)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

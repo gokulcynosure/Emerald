@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fitment_Carried_Out_Inside_Outside__c</fullName>
+    <externalId>false</externalId>
+    <label>Fitment Carried Out -Inside/Outside</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Inside</fullName>
+                <default>false</default>
+                <label>Inside</label>
+            </value>
+            <value>
+                <fullName>Outside</fullName>
+                <default>false</default>
+                <label>Outside</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

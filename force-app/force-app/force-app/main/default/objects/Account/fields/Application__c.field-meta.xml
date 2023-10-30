@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Application__c</fullName>
+    <externalId>false</externalId>
+    <label>Application</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Forklift</fullName>
+                <default>false</default>
+                <label>Forklift</label>
+            </value>
+            <value>
+                <fullName>Skidsteer</fullName>
+                <default>false</default>
+                <label>Skidsteer</label>
+            </value>
+            <value>
+                <fullName>Metal Equipment</fullName>
+                <default>false</default>
+                <label>Metal Equipment</label>
+            </value>
+            <value>
+                <fullName>GSE</fullName>
+                <default>false</default>
+                <label>GSE</label>
+            </value>
+            <value>
+                <fullName>Cleaning Equipment</fullName>
+                <default>false</default>
+                <label>Cleaning Equipment</label>
+            </value>
+            <value>
+                <fullName>Agri Implement</fullName>
+                <default>false</default>
+                <label>Agri Implement</label>
+            </value>
+            <value>
+                <fullName>Warehouse</fullName>
+                <default>false</default>
+                <label>Warehouse</label>
+            </value>
+            <value>
+                <fullName>Rotator</fullName>
+                <default>false</default>
+                <label>Rotator</label>
+            </value>
+            <value>
+                <fullName>Tow Tug</fullName>
+                <default>false</default>
+                <label>Tow Tug</label>
+            </value>
+            <value>
+                <fullName>Platform Truck</fullName>
+                <default>false</default>
+                <label>Platform Truck</label>
+            </value>
+            <value>
+                <fullName>Backhoe Solid</fullName>
+                <default>false</default>
+                <label>Backhoe Solid</label>
+            </value>
+            <value>
+                <fullName>Industrial Trolley</fullName>
+                <default>false</default>
+                <label>Industrial Trolley</label>
+            </value>
+            <value>
+                <fullName>Temple Trolley</fullName>
+                <default>false</default>
+                <label>Temple Trolley</label>
+            </value>
+            <value>
+                <fullName>Industrial Trailer</fullName>
+                <default>false</default>
+                <label>Industrial Trailer</label>
+            </value>
+            <value>
+                <fullName>Telehandler</fullName>
+                <default>false</default>
+                <label>Telehandler</label>
+            </value>
+            <value>
+                <fullName>Others (Please Specify)</fullName>
+                <default>false</default>
+                <label>Others (Please Specify)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

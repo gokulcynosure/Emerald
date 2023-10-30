@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Version__c</fullName>
+    <externalId>false</externalId>
+    <label>Version</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>STANDARD</fullName>
+                <default>false</default>
+                <label>STANDARD</label>
+            </value>
+            <value>
+                <fullName>TUBES</fullName>
+                <default>false</default>
+                <label>TUBES</label>
+            </value>
+            <value>
+                <fullName>FLAP</fullName>
+                <default>false</default>
+                <label>FLAP</label>
+            </value>
+            <value>
+                <fullName>NONMARKER</fullName>
+                <default>false</default>
+                <label>NONMARKER</label>
+            </value>
+            <value>
+                <fullName>RIM</fullName>
+                <default>false</default>
+                <label>RIM</label>
+            </value>
+            <value>
+                <fullName>FITMENT</fullName>
+                <default>false</default>
+                <label>FITMENT</label>
+            </value>
+            <value>
+                <fullName>WHEEL HUB</fullName>
+                <default>false</default>
+                <label>WHEEL HUB</label>
+            </value>
+            <value>
+                <fullName>PREMIUM</fullName>
+                <default>false</default>
+                <label>PREMIUM</label>
+            </value>
+            <value>
+                <fullName>SUPER PREMIUM</fullName>
+                <default>false</default>
+                <label>SUPER PREMIUM</label>
+            </value>
+            <value>
+                <fullName>XTREME</fullName>
+                <default>false</default>
+                <label>XTREME</label>
+            </value>
+            <value>
+                <fullName>BUDGET</fullName>
+                <default>false</default>
+                <label>BUDGET</label>
+            </value>
+            <value>
+                <fullName>ECONOMY</fullName>
+                <default>false</default>
+                <label>ECONOMY</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

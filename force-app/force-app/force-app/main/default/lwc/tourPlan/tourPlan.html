@@ -1,0 +1,160 @@
+<template>
+	
+    <lightning-modal-header label="Customers Planned"></lightning-modal-header>
+    <lightning-modal-body> 
+		<div class="slds-scrollable" style="height: 300px;">
+        <h2 class="slds-text-heading_small slds-m-bottom_medium">
+            Information
+        </h2>
+        <!-- <div class="slds-m-around_medium">
+            <h1 class="slds-text-heading_small">Input Search Example</h1>
+            <p class="slds-text-body_regular">The following examples show various ways to create an input search component.</p>
+        </div> -->
+        
+
+        <div class="slds-form-element">
+            <label class="slds-form-element__label">Tour Plan</label>
+            <div class="slds-form-element__control">
+                <div class="slds-form-element__static">{objectList.Name}</div>
+            </div>
+        </div>
+        <br>
+
+
+        <div class="slds-form-element">
+            <label class="slds-form-element__label">Place</label>
+            <div class="slds-form-element__control">
+                <div class="slds-form-element__static">{objectList.District__c}</div>
+            </div>
+        </div>
+        <br>
+        
+
+        <!-- <div onkeyup={handleKeyUp}>
+            <lightning-input
+                name="enter-search"
+                label="Customer Name"
+                type="search"
+            ></lightning-input>
+        </div>
+        <p if:true={queryTerm}>
+            Searched for {queryTerm}!
+        </p> -->
+
+
+        <!-- <div class="slds-m-left_large slds-m-right_large" onmouseleave={mousehandler}>
+
+			
+
+			<lightning-input type="search" label="Customer" onchange={handleSearch} value={searchTerm}
+				onblur={blurhandler} onfocusout={focuhandler} onclick={clickhandler} placeholder={itemcounts}>
+			</lightning-input>
+            
+			
+
+			
+			<div class="slds-grid slds-wrap">
+				<template if:true={showselectall}>
+					<div class="slds-col slds-large-size_10-of-12 slds-medium-size_1-of-12 slds-size_1-of-12">
+						<a href="javascript.void(0)" onclick={selectall}>Select All</a>
+					</div>
+					<div class="slds-col slds-large-size_2-of-12 slds-medium-size_1-of-12 slds-size_1-of-12">
+						<div class="slds-float_right">
+							<a href="javascript.void(0)" onclick={handleclearall}>Clear All</a>
+						</div>
+					</div>
+				</template>
+				<template if:false={showselectall}>
+					<div class="slds-col slds-large-size_10-of-12 slds-medium-size_1-of-12 slds-size_1-of-12">
+					</div>
+					<div class="slds-col slds-large-size_2-of-12 slds-medium-size_1-of-12 slds-size_1-of-12">
+						<div class="slds-float_right">
+							<a href="javascript.void(0)" onclick={handleclearall}>Clear All</a>
+						</div>
+					</div>
+				</template>
+			</div>
+
+			
+			<template if:true={showDropdown}>
+				<div class="slds-box_border " style="width:100%">
+					<ul class="dropdown-list slds-dropdown_length-7 slds-p-left_medium">
+						<template for:each={filteredResults} for:item="profile">
+							<li key={profile.Id} class="dropdown-item">
+								<lightning-input type="checkbox" checked={profile.isChecked} label={profile.Name}
+									value={profile.Id} onchange={handleSelection}>
+								</lightning-input>
+							</li>
+						</template>
+					</ul>
+				</div>
+			</template>
+
+			
+			<div class="selection-summary">
+				<div class="slds-p-around_x-small">
+					<template for:each={selectedItems} for:item="selectedItem">
+						<lightning-pill key={selectedItem.Id} label={selectedItem.Name} name={selectedItem.Id}
+							onremove={handleRemove}></lightning-pill>
+					</template>
+				</div>
+			</div>
+		</div> -->
+
+		<div class="slds-form-element">
+            <label class="slds-form-element__label">Customer</label>
+		</div>
+
+
+
+		<div class="slds-combobox_container">
+			<div class="slds-combobox slds-dropdown-trigger slds-dropdown-trigger_click slds-is-open" aria-expanded="true" aria-haspopup="listbox" role="combobox">
+				<!-- Search Input -->
+				<div class="slds-combobox__form-element slds-input-has-icon slds-input-has-icon_right" role="none">
+					<lightning-input disabled={disabled} class="inputBox" placeholder="Select an Option" onblur={blurEvent} onclick={showOptions} onkeyup={filterOptions} value={searchString} auto-complete="off" variant="label-hidden" id="combobox-id-1" ></lightning-input>
+					<lightning-icon class="slds-input__icon" icon-name="utility:down" size="x-small" alternative-text="search"></lightning-icon>
+				</div>
+				<!-- Dropdown List -->
+				<template if:true={showDropdown}>
+					<div id="listbox-id-1" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid" ><!--style="{! 'max-height:' + (8 + (v.recordCount * 40)) + 'px' }""-->
+						<ul class="slds-listbox slds-listbox_vertical recordListBox" role="presentation">
+							<template if:false={message} >
+								<template for:each={optionData} for:item="option">
+									<template if:true={option.isVisible}>
+										<li key={option.value} data-id={option.value} onmousedown={selectItem} class="slds-listbox__item eachItem">
+											<template if:true={option.selected}>
+												<lightning-icon icon-name="utility:check" size="x-small" alternative-text="icon" ></lightning-icon>
+											</template>
+											<span class="slds-media slds-listbox__option_entity verticalAlign slds-truncate">{option.label}</span>
+										</li>
+									</template>
+								</template>
+							</template>
+							<template if:true={message} >
+								<li class="slds-listbox__item">
+									<span class="slds-media slds-listbox__option_entity verticalAlign slds-truncate">{message}</span>
+								</li>
+							</template>
+						</ul>
+					</div>
+				</template>
+			</div>
+		</div>
+
+		<!-- Multi Select Pills -->
+		<template for:each={optionData} for:item="option">
+			<template if:true={option.selected}>
+				<lightning-pill key={option.value} class="slds-m-around_xx-small" name={option.value} label={option.label} onremove={removePill}></lightning-pill>
+			</template>
+		</template>
+	
+	</div>
+    </lightning-modal-body>
+    <lightning-modal-footer>
+        <lightning-button label="Save" onclick={handleSave}></lightning-button>
+		<!-- <div class="success-message" if:true={showSuccessMessage}>
+			Record saved successfully!
+		</div> -->
+    </lightning-modal-footer>
+	
+</template>

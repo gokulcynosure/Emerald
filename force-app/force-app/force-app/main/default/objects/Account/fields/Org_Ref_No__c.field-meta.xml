@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Org_Ref_No__c</fullName>
+    <displayFormat>C-EM-{00000}</displayFormat>
+    <externalId>false</externalId>
+    <label>Org Ref No</label>
+    <type>AutoNumber</type>
+</CustomField>

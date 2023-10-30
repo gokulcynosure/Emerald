@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Work_place_hazards_if_any__c</fullName>
+    <externalId>false</externalId>
+    <label>Work place hazards if any</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Rails</fullName>
+                <default>false</default>
+                <label>Rails</label>
+            </value>
+            <value>
+                <fullName>Metal Ramp</fullName>
+                <default>false</default>
+                <label>Metal Ramp</label>
+            </value>
+            <value>
+                <fullName>Littered Floor</fullName>
+                <default>false</default>
+                <label>Littered Floor</label>
+            </value>
+            <value>
+                <fullName>Metal Scrap</fullName>
+                <default>false</default>
+                <label>Metal Scrap</label>
+            </value>
+            <value>
+                <fullName>Etc</fullName>
+                <default>false</default>
+                <label>Etc</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

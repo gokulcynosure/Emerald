@@ -1,0 +1,74 @@
+<apex:page standardController="Quote" renderAs="pdf" standardStylesheets="false" applyHtmlTag="false" applyBodyTag="false"
+showHeader="false"> 
+    <html>
+    <head>
+        <style type="text/css" media="print">
+            @page {
+            padding-top: 5%;
+            size: A4;
+            margin: 3cm 1.5cm 3.5cm 1.5cm;
+            @top-center {
+            content: element(header);
+            }
+            @bottom-center {
+            content: element(footer);
+            }
+            @bottom-right {
+            font-family: Arial Unicode MS;
+            font-size: 6pt;
+            content: " ";
+            }
+            }
+            div.header {
+            padding: 7.3px;
+            position: running(header);
+            }
+            div.footer {
+            display: block;
+            padding: 5px;
+            position: running(footer);
+            }     
+            .pagenumber:before {
+                content: counter(page);
+            }
+            .pagecount:before {
+                content: counter(pages);
+            }
+            .container {
+                display: flex;
+                flex-direction: column;
+                min-height: 100vh;
+    }
+
+    .content {
+        flex: 1;
+        padding-bottom: 50px; /* Adjust this value to match the height of your footer */
+    }    
+            </style>
+      </head>
+
+      <body>
+        <div class="header">
+            <c:EM_QuoteHeader />
+        </div>
+
+        <div class="footer">
+            <apex:outputPanel rendered="{!Quote.Account.Market__c == 'DOMESTIC'}">
+                <c:EM_QuoteFooter Quote="{!Quote}" />
+            </apex:outputPanel>
+           <div style="font-weight:bold;font-family:verdana;font-size:9PX;padding:3px">Page <span class="pagenumber"/> of <span class="pagecount"/></div>
+        </div>
+
+
+            <c:EM_QuoteBody Quote="{!Quote}" />
+            
+            
+    </body>
+            
+        
+        
+     
+    
+</html>
+
+</apex:page>
